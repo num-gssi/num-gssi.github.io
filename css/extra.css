@@ -1,0 +1,41 @@
+h1,h2 {
+  font-weight: 400;
+}
+
+h3 {margin-top: 5rem;}
+
+.people_photo {
+  width:250px; 
+  border: 1px solid black; 
+  padding: 2px; 
+  float: left; 
+  margin-right: 10px; 
+  margin-top: 10px;
+}
+
+.gssi_logo {
+  width:130px; 
+  padding: 2px; 
+  float: right; 
+  margin-top: 0px;
+}
+
+.md-toc-h1 {
+  display: none;
+}
+
+date {
+  color:gray;
+  font-style: italic;
+  display: block;
+}
+
+.title{
+  margin-bottom:-5px;
+}
+subtitle{
+  font-size: 26px;
+  color:gray;
+  margin-bottom: 30px;
+  display: block;
+}
