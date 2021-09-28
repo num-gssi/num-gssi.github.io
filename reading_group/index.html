@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Research - CompMath @ GSSI</title>
+    <title>Reading group - CompMath @ GSSI</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -86,8 +86,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../reading_group/">Reading group</a>
+                    <li class="active">
+                        <a href="./">Reading group</a>
                     </li>
                 
                 
@@ -99,6 +99,16 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
+                    <li >
+                        <a rel="prev" href="../seminar/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="next" >
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
             </ul>
         </div>
     </div>
@@ -107,43 +117,48 @@
     <div class="container">
         
         
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#research">Research</a></li>
-            <li class="second-level"><a href="#numerical-integration-of-nonsmooth-dynamical-systems">Numerical integration of nonsmooth dynamical systems</a></li>
-                
-            <li class="second-level"><a href="#computational-analysis-of-complex-networks">Computational analysis of complex networks</a></li>
-                
-            <li class="second-level"><a href="#spectral-methods-for-machine-learning">Spectral methods for machine learning</a></li>
-                
-    </ul>
-</div></div>
-        <div class="col-md-9" role="main">
+        <div class="col-md-12" role="main">
 
-<h1 id="research">Research</h1>
-<p>The research interests of this group include:  </p>
-<ul>
-<li>Numerical integration of ODEs  </li>
-<li>Numerical solution of nonlinear eigenvector problems   </li>
-<li>Numerical linear algebra   </li>
-<li>Computational data science   </li>
-<li>Spectral graph theory   </li>
-<li>Numerical Optimization </li>
-<li>Analysis of complex networks   </li>
-</ul>
-<p>and their applications to a wide range of real-world problems. Some specific topics of interest  are:</p>
-<h3 id="numerical-integration-of-nonsmooth-dynamical-systems">Numerical integration of nonsmooth dynamical systems</h3>
-<p>The numerical treatment of differential equations usually relies on smoothness assumptions which play a fundamental role in the development of suitable schemes and in their convergence analysis. However, an emergent field of interest is systems of ODEs with discontinuous right hand side and many applications can be found in control theory (bang-bang controls), mechanical systems (dry friction) biology (gene regulatory networks), chemistry (gas liquid models). In most mathematical models described by discontinuous ODEs the vector field is piecewise smooth in subregions separated by manifolds and discontinuities take place across the manifolds. The existence and uniqueness of solutions are not anymore guaranteed at such interfaces and the classical Filippov theory becomes ambiguous when the discontinuity manifolds have co-dimension greater than 1. Infinitely many vector fields could be selected along the discontinuity manifolds and the corresponding solutions might have different qualitative behavior. This issue clearly affects also the numerical approximation of the solutions. Our aim is to investigate physical regularizations so to allow one to select a Filippov solution that has physical relevance. If we can show that the solutions of the regularized system converge uniformly to a particular Filippov solution, then we can select this solution for the discontinuous problem. The persistence of the qualitative behavior of solutions under regularization is fundamental if we wish to replace the discontinuous system with the regular one or viceversa, hence we will investigate this persistence as well. At the state of the art, numerical techniques for discontinuous problems, even though efficient, need to select a priori a sliding vector field in Filippov convex combination. Our studies would give rigorous theoretical justifications to make such selection in agreement with the original real life model that one wishes to simulate. Our research project focuses on getting new theoretical insight into numerical approaches and on exploiting this insight for the design and implementation of efficient algorithms.</p>
-<!-- Informal enquiries can be made to Nicola Guglielmi (nicola.guglielmi@gssi.it) -->
-
-<h3 id="computational-analysis-of-complex-networks">Computational analysis of complex networks</h3>
-<p>Networks are a very powerful tool to model complex systems and analyze large data. For example, in exploratory data analysis we are often interested in finding clusters or communities, or assessing the importance (or centrality) of datapoints. As many real-world systems feature geographical, temporal, or categorical metadata and higher-order structures (motifs), models based on higher-order graphs such as hypergraphs, multilayer graphs and simplicial complexes are nowadays becoming prevalent.
-We are interested in developing both theoretical foundations and efficient algorithms for a range of network analysis problems. We are particularly interested in methods that exploit matrix and tensor representations of the data to approximately solve related combinatorial optimization problems such as community detection, clustering, core-periphery analysis.</p>
-<h3 id="spectral-methods-for-machine-learning">Spectral methods for machine learning</h3>
-<p>Spectral methods play a fundamental role in machine learning, statistics, and data mining.
-Methods for important tasks such as clustering, semi-supervised learning, dimensionality reduction, latent factor models, ranking and preference learning and covariance estimation
-all use information about eigenvalues and eigenvectors (or singular values and singular vectors) from an underlying data matrix.
-Even though spectral methods are both powerful and convenient, they often rely on a linear approximation of the ideal learning problem which sometimes yields inaccurate results. We are interested in developing spectral methods that are based on nonlinear eigenvalue problems with eigenvector nonlinearities. This class of eigenvector methods is very broad and includes several nonlinear dimensionality reduction models and tight relaxation of cut functions, to name some. Moreover, it allows us to develop numerical linear algebra tools to efficiently perform the nonlinear spectral methods.  </p></div>
+<h1 id="nomads-reading-group">NOMADS Reading Group</h1>
+<p>We organize a reading group on topics related to <strong>Matrix Theory, Numerical ODEs, Machine Learning, Data Mining, Network Science.</strong> 
+We meet regularly to read a paper of common interest, together.</p>
+<p>The reading group is organized by our early career group members and supervised/coordinated by  <a href="https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola">Nicola Guglielmi</a> and <a href="https://ftudisco.gitlab.io">Francesco Tudisco</a>. </p>
+<table>
+<thead>
+<tr>
+<th>Organizer</th>
+<th></th>
+<th></th>
+<th>Period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img style="width:60px;" src="https://www.gssi.it/media/k2/items/cache/7f9f1b99149b66abc7b5a2731faa302f_L.jpg"></td>
+<td><a href="https://www.gssi.it/people/students/students-maths/item/11045-savostianova-dayana">Dayana Savostianova</a>, GSSI</td>
+<td><div style="width:200px;"></div></td>
+<td>November 2021 -- present</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Presenter</th>
+<th></th>
+<th>Title, Abstract &amp; Other Info</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
         
         
     </div>
