@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Reading group - CompMath @ GSSI</title>
+    <title>Join us - CompMath @ GSSI</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -86,14 +86,14 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Reading group</a>
+                    <li >
+                        <a href="../reading_group/">Reading group</a>
                     </li>
                 
                 
                 
-                    <li >
-                        <a href="../vacancies/">Join us</a>
+                    <li class="active">
+                        <a href="./">Join us</a>
                     </li>
                 
                 
@@ -106,12 +106,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../seminar/">
+                        <a rel="prev" href="../reading_group/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="next" href="../vacancies/">
+                    <li class="disabled">
+                        <a rel="next" >
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -123,59 +123,40 @@
     <div class="container">
         
         
-        <div class="col-md-12" role="main">
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#vacancies">Vacancies</a></li>
+            <li class="second-level"><a href="#apply-to-join-us">Apply to join us!</a></li>
+                
+            <li class="second-level"><a href="#phd-students">PhD students</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
 
-<h1 id="compile-reading-group">COMPiLE Reading Group</h1>
-<p>We organize a reading group on <em>COMPutational LEarning</em>, specifically on topics related to <strong>Numerics/Matrix Theory/Graph Theory with particular emphasis on their application/connection with Machine Learning, Data Mining and Network Science.</strong> 
-We meet regularly to read a paper of common interest, together, with the goal of creating some motivation for staying up to date with the new papers or to catch up with some papers that you wanted to read but postponed for some time.  </p>
-<p>The meetings will take place in the Main Lecture Hall on Wednesdays, starting at around 16:30-17:00. In person participation is highly encouraged (if the numbers will allow that), but there will be the possibility to join also via zoom.   </p>
-<p>If you are interested in participating please complete the form below until October 31 to be to be notified about the first meeting (the form will continue working after that):<br />
-Google Form: <a href="https://forms.gle/8BUovFDTbx9YH6L2A">Subscription to Reading Group mailing list</a></p>
-<p>If you have suggestions for papers to ready you can propose your ideas here: <br />
-Google Form: <a href="https://forms.gle/fzrMX4Vyu7WBmbYB6">Suggestions for papers to read</a></p>
-<p>The reading group is organized by our early career group members and supervised/coordinated by  <a href="https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola">Nicola Guglielmi</a> and <a href="https://ftudisco.gitlab.io">Francesco Tudisco</a>. </p>
-<table>
-<thead>
-<tr>
-<th>Organizer</th>
-<th></th>
-<th></th>
-<th>Period</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img style="width:60px;" src="https://www.gssi.it/media/k2/items/cache/7f9f1b99149b66abc7b5a2731faa302f_L.jpg"></td>
-<td><a href="https://www.gssi.it/people/students/students-maths/item/11045-savostianova-dayana">Dayana Savostianova</a>, GSSI</td>
-<td><div style="width:200px;"></div></td>
-<td>November 2021 -- present</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Presenter</th>
-<th></th>
-<th>Title, Abstract &amp; Other Info</th>
-<th>Date</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.gssi.it/people/students/students-maths/item/11045-savostianova-dayana">Dayana Savostianova</a></td>
-<td></td>
-<td>Witches' Brew: Industrial Scale Data Poisoning via Gradient Matching <br><br> Data Poisoning attacks modify training data to maliciously control a model trained on such data. In this work, we focus on targeted poisoning attacks which cause a reclassification of an unmodified test image and as such breach model integrity. We consider a particularly malicious poisoning attack that is both "from scratch" and "clean label", meaning we analyze an attack that successfully works against new, randomly initialized models, and is nearly imperceptible to humans, all while perturbing only a small fraction of the training data. Previous poisoning attacks against deep neural networks in this setting have been limited in scope and success, working only in simplified settings or being prohibitively expensive for large datasets. The central mechanism of the new attack is matching the gradient direction of malicious examples. We analyze why this works, supplement with practical considerations. and show its threat to real-world practitioners, finding that it is the first poisoning method to cause targeted misclassification in modern deep networks trained from scratch on a full-sized, poisoned ImageNet dataset. Finally we demonstrate the limitations of existing defensive strategies against such an attack, concluding that data poisoning is a credible threat, even for large-scale deep learning systems.  <br><br>  ICLR 2021 - <a href="https://arxiv.org/abs/2009.02276">https://arxiv.org/abs/2009.02276</a></td>
-<td>November 24, 2021</td>
-</tr>
-<tr>
-<td><a href="https://www.gssi.it/people/students/students-computer-science/item/7896-fioravanti-simone">Simone Fioravanti</a></td>
-<td></td>
-<td>EigenGame: PCA as Nash Equilibrium <br><br> We present a novel view on principal component analysis (PCA) as a competitive game in which each approximate eigenvector is controlled by a player whose goal is to maximize their own utility function. We analyze the properties of this PCA game and the behavior of its gradient based updates. The resulting algorithm -- which combines elements from Oja's rule with a generalized Gram-Schmidt orthogonalization -- is naturally decentralized and hence parallelizable through message passing. We demonstrate the scalability of the algorithm with experiments on large image datasets and neural network activations. We discuss how this new view of PCA as a differentiable game can lead to further algorithmic developments and insights.  <br><br>  ICLR 2021 - <a href="https://arxiv.org/abs/2010.00554">https://arxiv.org/abs/2010.00554</a></td>
-<td>Dec 9, 2021</td>
-</tr>
-</tbody>
-</table></div>
+<h1 id="vacancies">Vacancies</h1>
+<p><br></p>
+<p><strong>NEW</strong><br />
+We are looking to hire a new colleague at the level of <a href="https://www.gssi.it/communication/announcements/item/16186-expression-of-interest-tenure-track-assistant-professor-in-numerical-analysis-rtdb-in-the-mathematics-area-at-gssi">Tenure-Track Assistant Professor to join our group!</a></p>
+<!-- **NEW!** We are looking for a new Postdoc to join our group on a project related to *Stability of Neural ODEs* -->
+
+<h3 id="apply-to-join-us">Apply to join us!</h3>
+<p><br></p>
+<p><a href="https://www.gssi.it/communication/announcements/item/16186-expression-of-interest-tenure-track-assistant-professor-in-numerical-analysis-rtdb-in-the-mathematics-area-at-gssi">Call for Expressions of Interest for a Faculty Position at the level of tenure track Assistant Professor (RTDB) in the Numerical Analysis Group (Math Division) of the Gran Sasso Science Institute, School of Advanced Studies.</a></p>
+<p>The <a href="../">Numerical Analysis and Data Science group</a> of the Gran Sasso Science Institute (GSSI) invites expressions of interest for a faculty position at the Assistant Professor level (Tenure Track - RTDB) from highly qualified scholars worldwide.</p>
+<p>The GSSI Numerical Analysis Division hosts scientists carrying out interdisciplinary research on a variety of subjects, ranging from <strong>Matrix Analysis, Numerical ODEs, Numerical PDEs, Dynamical systems, Graph Theory, Numerical Linear Algebra, Computational Network Science and Mathematics of Machine Learning</strong>. </p>
+<p>The GSSI is an International School of Advanced Doctoral Studies, with a prominent program of graduate courses. Located in the city of L’Aquila, in the heart of the Apennine Mountains east of Rome, the institute offers a stimulating environment with numerous PhD students and postdoctoral researchers selected internationally every year. 
+English is the official language for all the activities at the institute (teaching, seminars, tutoring, etc.).
+About 40 PhD Students in Applied Mathematics from all over the world are at GSSI at any given time, and part of the duties of the Faculty is to provide teaching and supervision of their research activity. Interdisciplinary projects aimed at increasing the connections with other PhD courses at GSSI within the Math Division as well as the other areas (physics, computer science and regional economics) are encouraged.</p>
+<p>The GSSI will announce one tenure-track position in early 2022. The present call for expressions of interest is aimed at probing the community of scientists at the international level that might want to join the GSSI faculty. We emphasize that all non-Italian citizens and all Italian candidates having spent sufficient time working abroad are entitled to up to 90% reduction of tax load for at least the first 6 years of employment, as per current Italian regulations. Additionally, the successful candidate will be entitled to up to 30% salary increase with respect to National standards, subject to positive evaluation by the hiring committee.</p>
+<p>Candidates willing to work in the exciting GSSI atmosphere, as tenure track Assistant Professors, are required to have a doctoral degree in mathematics or related fields prior to the appointment, with a proven record of achievements, a clear potential to promote and lead research activities and a specific interest in teaching at the graduate level to a small set of particularly skilled and motivated students. </p>
+<p>A curriculum vitae, a list of publications, and a brief research statement should be sent by email (<a href="mailto:numerics@gssi.it">numerics@gssi.it</a>), together with a short motivation letter in which the candidate discusses the reasons for their interest in joining the GSSI team. The candidates should also arrange for two recommendation letters to be sent directly to the GSSI (<a href="mailto:numerics@gssi.it">numerics@gssi.it</a>), to support their application. The expressions of interest should be sent at your earliest convenience and in any case not later than Jan 31, 2022.</p>
+<p>GSSI is committed to gender balance, inclusion and diversity. All expressions of interest will be given proper consideration, independent of ethnicity, religion, age, gender, sexual orientation, or disability.</p>
+<!-- ### Postdocs -->
+
+<h3 id="phd-students">PhD students</h3>
+<p>Applications for the PhD program at GSSI open every year around March with several open positions in all the four areas. Deadline for the application is usually in mid June.   The PhD program consists of four years with qualifying exams to be taken during the first year. The scholarship for the program offers a monthly salary/stipend, research funds and free housing in institute's residences in the city center of L'Aquila.   </p>
+<p>More details on how to apply can be found <a href="https://www.gssi.it/institute/study-with-us">here</a> and <a href="https://applications.gssi.it/phd/">here</a>. </p></div>
         
         
     </div>
