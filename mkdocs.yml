@@ -1,0 +1,41 @@
+site_name: CompMath @ GSSI
+nav:
+  - Home: index.md
+  - People: people.md
+  - Research & PhD Projects: research.md
+  - Seminar: seminar.md
+  - Reading group: reading_group.md
+  # - Join us: vacancies.md
+  # - Home: 
+  #   - index.md
+  # - People: 
+  #   - people.md
+  # - Research: 
+  #   - research.md
+  # - Seminar: 
+  #   - seminar.md
+theme:
+  # name: material
+  name: null
+  custom_dir: 'cinder'
+  palette:
+    primary: black
+  font:
+    text: Open Sans
+  features:
+    - tabs
+    - navigation.expand
+extra_css:
+  - css/extra.css
+  - http://tikzjax.com/v1/fonts.css
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
+
+extra_javascript: 
+  # - javascripts/config.js
+  - assets/mathjaxhelper.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # - http://tikzjax.com/v1/tikzjax.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  - assets/config.js

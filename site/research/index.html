@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Research & PhD Projects - CompMath @ GSSI</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+    <link href="../css/extra.css" rel="stylesheet">
+    <link href="http://tikzjax.com/v1/fonts.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">CompMath @ GSSI</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../people/">People</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Research & PhD Projects</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../seminar/">Seminar</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../reading_group/">Reading group</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../people/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../seminar/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#research-phd-projects">Research &amp; PhD Projects</a></li>
+            <li class="second-level"><a href="#efficient-training-of-stable-implicit-depth-neural-networks">Efficient training of stable implicit-depth neural networks</a></li>
+                
+            <li class="second-level"><a href="#numerical-integration-of-nonsmooth-dynamical-systems">Numerical integration of nonsmooth dynamical systems</a></li>
+                
+            <li class="second-level"><a href="#computational-network-science">Computational network science</a></li>
+                
+            <li class="second-level"><a href="#spectral-methods-for-machine-learning">Spectral methods for machine learning</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="research-phd-projects">Research &amp; PhD Projects</h1>
+<p>The research interests of the group include:  </p>
+<ul>
+<li>Numerical integration of ODEs  </li>
+<li>Numerical solution of nonlinear eigenvector problems   </li>
+<li>Numerical linear algebra   </li>
+<li>Computational machine learning and data science   </li>
+<li>Spectral graph theory   </li>
+<li>Numerical Optimization </li>
+<li>Analysis of complex networks   </li>
+</ul>
+<p>and their applications to a wide range of real-world problems. Some specific topics of interest  are described below.</p>
+<h3 id="efficient-training-of-stable-implicit-depth-neural-networks">Efficient training of stable implicit-depth neural networks</h3>
+<p>Supervised and semi-supervised classification are among the most important tasks in machine learning and data mining. The state-of-the-art techniques for both these two tasks are based on deep Neural Networks (NNs) or graph NNs. From a mathematical viewpoint, these models boil down to a regularized constrained optimization problem, </p>
+<p>$$\begin{cases} \min \ell(f(x),y) + \lambda \varphi(f) &amp;  \newline
+ \text{such that } f\in \mathcal F:=\{f:f(x)=\sigma(W_k\sigma(\cdots \sigma(W_1\sigma(W_0 x))\cdots))\} &amp; 
+\end{cases}$$</p>
+<p>where the constraints form a function space \( \mathcal F \) parametrized by structured matrices \(W = (W_0,\dots,W_k)\), including Toeplitz and multilevel Toeplitz matrices (convolutional operators) and graph or hypergraph matrices (discrete Laplacian operators and graph-convolutional filters).</p>
+<p>Recent work has shown the advantages of so-called implicit-depth or continuous-time neural networks, where the constraints in the NN optimization problem are defined via a nonlinear system of ODEs or PDEs, i.e. for instance we replace \(f\in \mathcal F\) with a differential equation of the form \( \dot f = f(W,t)\). Popular instances of this type of NN models are so-called Neural ODE  and Deep Equilibrium Models. These approaches, which trace back to early work on recurrent backpropagation, have a number of advantages: (a) they have been recently shown to match or even exceed the performance of traditional NNs on time series and image data (e.g. sequence modeling); (b) memory-wise, they are drastically more efficient than traditional NNs as backpropagation is done analytically and does not require to store internal weights, allowing to efficiently handle deeper architectures.</p>
+<p>While prediction accuracy of NN-based models has reached extraordinary performance, their potential instability with respect to adversarial attacks is a major limitation and one of the most important challenges in the field. Having guarantees of robustness against adversarial attacks is an essential requirement for the application of NNs in the society. In an unstable dynamical system, small perturbations of the initial state (the training dataset) may lead to very different solutions, thus a stable continuous-time NN architecture is an essential requirement for robustness against adversarial attacks. The obvious approach to ensure stability is to restrict the constraints set (the structure of the admissible functions), for example by limiting the matrix parameters to skew-Hermitian convolutional operators of the form
+$$
+W = -BB^\top,\qquad W = \begin{bmatrix} &amp; B^\top \newline -B &amp; \end{bmatrix}\, . 
+$$
+However, this approach further constrains the admissible functions set and reduces the applicability of the NN classifier and its classification performance.</p>
+<p>Leveraging recent techniques from matrix stability theory, we aim at developing new training algorithms for implicit-depth NN which will ensure forward (and, subsequently, backward) stability with the least reduction in terms of admissible constraint parameters.  Methods from numerical ODEs and numerical linear algebra will be used to handle the differential nature of the problem and the large structured matrices involved as well as to prove the convergence of the training algorithm. Our numerical schemes will take advantage of the structure of convolutional operators and graph matrices to ensure efficiency in the training process and performance in terms of classification accuracy.</p>
+<!-- 
+We aim at produce a dedicated software library, which will be made available through a public-domain repository. This will directly impact the machine learning community. Methods from numerical ODEs and numerical linear algebra will be used to handle the differential nature of the problem and the large structured matrices involved as well as to prove the convergence of the training algorithm. Our numerical schemes will take advantage of the structure of convolutional operators and graph matrices to ensure efficiency in the training process and performance in terms of classification accuracy. Thus, we expect the results will impact the numerical community as well. Furthermore, we expect to branch out beyond supervised and semi-supervised classification, and we envision the new techniques will be applicable in other data mining settings, including the stability of graph centrality, anomaly detection, and link prediction algorithms [8].  -->
+
+<h3 id="numerical-integration-of-nonsmooth-dynamical-systems">Numerical integration of nonsmooth dynamical systems</h3>
+<p>The numerical treatment of differential equations usually relies on smoothness assumptions which play a fundamental role in the development of suitable schemes and in their convergence analysis. However, an emergent field of interest is systems of ODEs with discontinuous right hand side and many applications can be found in control theory (bang-bang controls), mechanical systems (dry friction) biology (gene regulatory networks), chemistry (gas liquid models). In most mathematical models described by discontinuous ODEs the vector field is piecewise smooth in subregions separated by manifolds and discontinuities take place across the manifolds. The existence and uniqueness of solutions are not anymore guaranteed at such interfaces and the classical Filippov theory becomes ambiguous when the discontinuity manifolds have co-dimension greater than 1. Infinitely many vector fields could be selected along the discontinuity manifolds and the corresponding solutions might have different qualitative behavior. This issue clearly affects also the numerical approximation of the solutions. Our aim is to investigate physical regularizations so to allow one to select a Filippov solution that has physical relevance. If we can show that the solutions of the regularized system converge uniformly to a particular Filippov solution, then we can select this solution for the discontinuous problem. The persistence of the qualitative behavior of solutions under regularization is fundamental if we wish to replace the discontinuous system with the regular one or viceversa, hence we will investigate this persistence as well. At the state of the art, numerical techniques for discontinuous problems, even though efficient, need to select a priori a sliding vector field in Filippov convex combination. Our studies would give rigorous theoretical justifications to make such selection in agreement with the original real life model that one wishes to simulate. Our research project focuses on getting new theoretical insight into numerical approaches and on exploiting this insight for the design and implementation of efficient algorithms.</p>
+<!-- Informal enquiries can be made to Nicola Guglielmi (nicola.guglielmi@gssi.it) -->
+
+<h3 id="computational-network-science">Computational network science</h3>
+<p>Networks are a very powerful tool to model complex systems and analyze large data. For example, in exploratory data analysis we are often interested in finding clusters or communities, or assessing the importance (or centrality) of datapoints. As many real-world systems feature geographical, temporal, or categorical metadata and higher-order structures (motifs), models based on higher-order graphs such as hypergraphs, multilayer graphs and simplicial complexes are nowadays becoming prevalent.
+We are interested in developing both theoretical foundations and efficient algorithms for a range of network analysis problems. We are particularly interested in methods that exploit matrix and tensor representations of the data to approximately solve related combinatorial optimization problems such as community detection, clustering, core-periphery analysis.</p>
+<h3 id="spectral-methods-for-machine-learning">Spectral methods for machine learning</h3>
+<p>Spectral methods play a fundamental role in machine learning, statistics, and data mining.
+Methods for important tasks such as clustering, semi-supervised learning, dimensionality reduction, latent factor models, ranking and preference learning and covariance estimation
+all use information about eigenvalues and eigenvectors (or singular values and singular vectors) from an underlying data matrix.
+Even though spectral methods are both powerful and convenient, they often rely on a linear approximation of the ideal learning problem which sometimes yields inaccurate results. We are interested in developing spectral methods that are based on nonlinear eigenvalue problems with eigenvector nonlinearities. This class of eigenvector methods is very broad and includes several nonlinear dimensionality reduction models and tight relaxation of cut functions, to name some. Moreover, it allows us to develop numerical linear algebra tools to efficiently perform the nonlinear spectral methods.  </p></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <!-- 
+        <hr>
+        <p>
+        <small>Made with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+         -->
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../assets/mathjaxhelper.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script src="../assets/config.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
