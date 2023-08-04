@@ -114,7 +114,7 @@ His current research interests are numeric linear algebra, polynomial root-findi
 
 <br><br><br>
 
-### Former members
+### Former Members
 Alessia Andò (postdoc) <br>
 Konstantin Prokopchik (PhD student) <br>
 Mattia Manucci (PhD student)
