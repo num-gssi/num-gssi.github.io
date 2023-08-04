@@ -24,23 +24,19 @@ Before moving to the GSSI, I was a Marie Curie Individual Fellow at the Universi
 
 <br>
 
-# Postdocs 
-
-
-### Alessandra Ando'
-
-<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/8438d3d677d16321a449fa6884f000af_XL.jpg"/>
-
-Within the general area of Numerical Analysis, I am mainly interested in functional delay equations and related dynamical systems and models. The focus is mostly towards the dynamical analysis of the models, which includes the computation of invariant sets (such as equilibria and periodic solutions) and the study of their asymptotic stability.
-During my PhD studies I have deepened my knowledge of collocation methods for dynamical systems described by delay functional equations, in particular delay differential equations (DDEs), renewal equations (REs) and coupled DDE/RE systems.
-Collocation can be used to approximate a periodic solution of a delay system for some fixed values of the model parameters. I have implemented a method, based on collocation and continuation, to compute periodic solutions, which was previously only tested on DDEs but not on REs, and tested its performance on some models from the literature. I have also worked on the theoretical analysis convergence of these methods for DDEs and later on its extension to REs. I am currently interested in its further extension in several directions (coupled DDE/RE systems, state-dependent delay equations, neutral delay equations).
-I would also like to extend my experience with continuation, collocation and dynamical systems also to other contexts, e.g., PDEs of evolution type.
-
+# Postdocs
 
 ### Asma Farooq
 
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/3dc8bb54e4c819a8b5a62a9f9cbd2ace_L.jpg"/>
+
+<br><br><br><br><br><br><br><br>
+
 ### Piero Deidda
 
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/19750442099982ecbbaed6577f5defed_L.jpg"/>
+
+<br><br><br><br><br><br><br><br>
 
 <br>
 
@@ -48,23 +44,12 @@ I would also like to extend my experience with continuation, collocation and dyn
 
 # PhD Students
 
+### Anton Savostianov
 
-### Sara Tarquini
 <img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg"/>
+https://www.gssi.it/media/k2/items/cache/3b9eac264b0518bece5650d7f7de4392_XL.jpg"/>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br><br>
-
-### Emanuele Zangrando
-<img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/b9d19495ab6d0de16d03ceb35b095cd8_XL.jpg"/>
-
-<br><br><br><br><br><br><br><br>
+Anton Savostianov is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. Previously, he was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). He holds a MSc in Data Analysis in Biology and Medicine (sc. advisor - Mikhail Gelfand) and BSc in Applied Mathematics and Informatics from Higher School of Economics. His current research interests are in the scope of complex systems, mathematical modelling in solar activity, nonlinear coupled oscillators and its bifurcations. Published an article in Physica D, oral report at Space Climate 7 conference (Montreal, Canada, 2019).
 
 ### Arturo De Marinis
 <img class="people_photo" src="
@@ -75,7 +60,6 @@ He holds a degree in Mathematics from the University of Bari Aldo Moro. In his t
 
 <br>
 
-
 ### Dayana Savostianova
 
 <img class="people_photo" src="
@@ -83,6 +67,27 @@ https://www.gssi.it/media/k2/items/cache/7f9f1b99149b66abc7b5a2731faa302f_L.jpg"
 
 Dayana Savostianova is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. Previously, she was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). She holds a BSc in Applied Mathematics and Information Science from Higher School of Economics. Her current research interests are in the scope of complex systems, mathematical modelling  and direct numerical simulations of natural processes. Her previous work was focused on predictability in Self-Organised Criticality systems.
 
+### Emanuele Zangrando
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/b9d19495ab6d0de16d03ceb35b095cd8_XL.jpg"/>
+
+<br><br><br><br><br><br><br><br>
+
+### Francesco Fabbri
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/a6cf2da04550a16cf8922a50cd63f51a_L.jpg"/>
+
+Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/professors/lectures-maths/item/7942-viola-francesco).
+
+<br><br><br><br><br><br><br>
+
+### Helena Biscevic
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/086e05a6efcb9ae6635611c175c3109b_L.jpg"/>
+
+Joint supervision with [Prof. Raffaele D'Ambrosio](http://people.disim.univaq.it/~raffaele.dambrosio/).
+
+<br><br><br><br><br><br><br>
 
 ### Miryam Gnazzo
 
@@ -91,9 +96,13 @@ https://www.gssi.it/media/k2/items/cache/bb88c4ba66f00eda9054e07bc387285b_L.jpg"
 
 Miryam Gnazzo is a PhD student in Mathematics at the GSSI in L’Aquila.  She holds a MSc in Mathematics from the University of Pisa, with a thesis about a resultant-based method for bivariate rootfinding. Her current research interests are in the field of numerical linear algebra, particularly in multivariate polynomial rootfinding.
 
-<br>
-<br>
+<br><br>
 
+### Sara Tarquini
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg"/>
+
+<br><br><br><br><br><br><br><br>
 
 ### Stefano Sicilia
 
@@ -103,39 +112,12 @@ https://www.gssi.it/media/k2/items/cache/84ba3d43f2d9c97ae0b2dbce27901e0d_L.jpg"
 Stefano Sicilia is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI. He studied Mathematics at the University of Pisa both for Bachelor’s and Master’s degrees, focusing on applied mathematics, numerical analysis and data science. His Master’s degree thesis deals with numerical methods for polynomial root-finding.
 His current research interests are numeric linear algebra, polynomial root-finding and numerical methods for differential equations.
 
-<br>
+<br><br><br>
 
-
-
-### Anton Savostianov
-
-<img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/3b9eac264b0518bece5650d7f7de4392_XL.jpg"/>
-
-Anton Savostianov is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. Previously, he was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). He holds a MSc in Data Analysis in Biology and Medicine (sc. advisor - Mikhail Gelfand) and BSc in Applied Mathematics and Informatics from Higher School of Economics. His current research interests are in the scope of complex systems, mathematical modelling in solar activity, nonlinear coupled oscillators and its bifurcations. Published an article in Physica D, oral report at Space Climate 7 conference (Montreal, Canada, 2019).
-
-
-### Konstantin Prokopchik
-
-<img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/e43b3476b403dd03c7177c6aac7125b9_L.jpg"/>
-
-My name is Prokopchik Konstantin. I am from Russia. I received my bachelor’s degree in 2016 in Math’s, the work topic was about modelling the fracture in oil industry. Then I found out about the new master program in my university, that was launching in 2016. It’s called Big Data Analytics, but essentially, it’s just Computer Science. In master’s thesis I gathered a specific dataset of melodies, tried to observe and test a lot of systems that generate music and attempted to create a new one. Apart from studying, I’ve been working as a python programmer for the last year. I’ve played with different NLP tools, worked with plenty of AWS’s, Jenkins and I’m sure I will continue to explore a lot of things around this field.
-
-### Mattia Manucci
-
-<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/20fd108d02064d0f5038edd5441b5f86_L.jpg" />
-
-I am a PhD Research Fellow in Applied Mathematics at the GSSI. Previously, I was a student of Mathematical engineering at the Politecnico di Torino. I hold a Master degree in Mathematical engineering and a Master 2 in Computational Mechanics taken at the Ecole Centrale de Nantes, France.
-I am interested in the applied branches of Mathematics especially the one concerning the numerical analysis.
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+### Former members
+Alessia Andò (postdoc) <br>
+Konstantin Prokopchik (PhD student) <br>
+Mattia Manucci (PhD student)
 
 
 <!-- # External Members 
