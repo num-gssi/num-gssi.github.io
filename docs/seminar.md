@@ -11,6 +11,11 @@ The seminar focuses on various topics in numerical analysis, numerical linear al
 
 Questions or comments about the seminar should be sent to [Nicola Guglielmi](https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola) or [Francesco Tudisco](https://ftudisco.gitlab.io). 
  <br>
+
+|Speaker||Title, Abstract & Other Info|Date|
+|------|------|------|----|
+| <img style="width:60px;" src="https://www.ymmor2024.uni-stuttgart.de/img/20fd108d02064d0f5038edd5441b5f86_XL.jpg?__scale=w:220,h:220,cx:0,cy:101,cw:900,ch:900"> | [Mattia Manucci](https://www.simtech.uni-stuttgart.de/exc/people/Manucci-00002/)<br> University of Stuttgart, Germany | **Model Order Reduction for switched Differential Algebraic Equations** <br> In this presentation, we will discuss a projection-based Model Order Reduction (MOR) for large-scale systems of switched Differential Algebraic Equations (sDAEs). The main idea relies on exploiting the Quasi-Weierstrass form of each mode of the sDAEs system. Then, we can show that, under certain reasonable assumptions, the output of the sDAEs system is equivalent to the output of a switched system of ordinary differential equations (ODEs) with state jumps between the modes. We present how to construct a reduced system by computing the controllability and observability Gramians associated with the solution of generalized Lyapunov equations for bilinear systems. Finally, we discuss how to efficiently compute an approximation of the solution of such generalized Lyapunov equations, with error control, when the associated matrices are sparse and large. Numerical results are presented to showcase the efficiency and effectiveness of the developed MOR method. | December 20, 2023|
+<br>
   
 |Speaker||Title, Abstract & Other Info|Date|
 |------|------|------|----|
