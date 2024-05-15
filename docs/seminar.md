@@ -5,11 +5,11 @@ disable_toc: true
 # NOMADS Seminars 
 
 
-We organize a seminar in **Numerical ODEs, Matrix Analysis and Data Science.**
+We organize seminars in **Numerical ODEs, Matrix Analysis and Data Science.**
 
-The seminar focuses on various topics in numerical analysis, numerical linear algebra, scientific computing and matrix theory with particular emphasis on their application in control theory, network science, data mining and machine learning.
+The seminars focus on various topics in numerical analysis, numerical linear algebra, scientific computing and matrix theory with particular emphasis on their application in control theory, network science, data mining and machine learning.
 
-Questions or comments about the seminar should be sent to [Nicola Guglielmi](https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola) or [Francesco Tudisco](https://ftudisco.gitlab.io). 
+Questions or comments about the seminars should be sent to [Nicola Guglielmi](https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola) or [Francesco Tudisco](https://ftudisco.gitlab.io). 
  <br>
 
 |Speaker||Title, Abstract & Other Info|Date|
