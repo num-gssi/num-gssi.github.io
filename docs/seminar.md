@@ -2,7 +2,7 @@
 disable_toc: true
 ---
 
-# NOMADS Seminar 
+# NOMADS Seminars 
 
 
 We organize a seminar in **Numerical ODEs, Matrix Analysis and Data Science.**

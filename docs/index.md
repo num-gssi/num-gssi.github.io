@@ -12,7 +12,7 @@ disable_toc: true
 This is the homepage of the Numerical Analysis and Data Science Group at [Gran Sasso Science Institute](https://www.gssi.it). The group's interests  center around numerical methods for differential equations and dynamical systems, numerical linear algebra, matrix theory, optimization and their  application to the analysis of graphs and networks and to problems related to learning from data. 
 
 
-For news, data and code, please also refer to our [GitHub Repository](https://github.com/compilelab) and  [Mastodon news feed]().
+For news, data and code, please also refer to our [GitHub Repository](https://github.com/compilelab).
 
 <!-- ## About GSSI
 
