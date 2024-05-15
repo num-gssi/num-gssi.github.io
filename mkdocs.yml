@@ -2,7 +2,7 @@ site_name: CompMath @ GSSI
 nav:
   - Home: index.md
   - People: people.md
-  - Research & PhD Projects: research.md
+  #- Research & PhD Projects: research.md
   - Seminar: seminar.md
   - Reading Group: reading_group.md
   # - Join us: vacancies.md

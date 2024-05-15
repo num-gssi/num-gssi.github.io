@@ -32,6 +32,12 @@ Before moving to the GSSI, I was a Marie Curie Individual Fellow at the Universi
 
 <br><br><br><br><br><br><br><br>
 
+### Francesco Paolo Maiale
+
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/4bf4cb790c30b494b4e810700fda2c3b_XL.jpg"/>
+
+<br><br><br><br><br><br><br><br>
+
 ### Piero Deidda
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/19750442099982ecbbaed6577f5defed_L.jpg"/>
@@ -43,13 +49,6 @@ Before moving to the GSSI, I was a Marie Curie Individual Fellow at the Universi
 
 
 # PhD Students
-
-### Anton Savostianov
-
-<img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/3b9eac264b0518bece5650d7f7de4392_XL.jpg"/>
-
-Anton Savostianov is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. Previously, he was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). He holds a MSc in Data Analysis in Biology and Medicine (sc. advisor - Mikhail Gelfand) and BSc in Applied Mathematics and Informatics from Higher School of Economics. His current research interests are in the scope of complex systems, mathematical modelling in solar activity, nonlinear coupled oscillators and its bifurcations. Published an article in Physica D, oral report at Space Climate 7 conference (Montreal, Canada, 2019).
 
 ### Arturo De Marinis
 <img class="people_photo" src="
@@ -98,6 +97,14 @@ Miryam Gnazzo is a PhD student in Mathematics at the GSSI in L’Aquila.  She ho
 
 <br><br>
 
+### Rinat Kamalov
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/67bce501cb91ad9502815f64f147e976_XL.jpg"/>
+
+Joint supervision with [Prof. Vladimir Protasov](https://www.disim.univaq.it/VladimirProtassov).
+
+<br><br><br><br><br><br><br>
+
 ### Sara Tarquini
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg"/>
@@ -114,7 +121,8 @@ His current research interests are numeric linear algebra, polynomial root-findi
 
 <br><br><br>
 
-### Former Members
+# Former Members
+Anton Savostianov (PhD student) <br>
 Alessia Andò (postdoc) <br>
 Konstantin Prokopchik (PhD student) <br>
 Mattia Manucci (PhD student)
