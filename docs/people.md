@@ -26,6 +26,12 @@ Before moving to the GSSI, I was a Marie Curie Individual Fellow at the Universi
 
 # Postdocs
 
+### Angelo Alberto Casulli
+
+<img class="people_photo" src="https://gssi.it/media/k2/items/cache/bc720404df99ccc30eec1c1bd757f56c_XL.jpg"/>
+
+<br><br><br><br><br><br><br><br>
+
 ### Asma Farooq
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/3dc8bb54e4c819a8b5a62a9f9cbd2ace_L.jpg"/>
