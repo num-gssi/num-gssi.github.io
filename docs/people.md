@@ -65,6 +65,14 @@ He holds a degree in Mathematics from the University of Bari Aldo Moro. In his t
 
 <br>
 
+### Bernardo Collufio
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/f00454cdb30717873333977da5f5d14e_XL.jpg"/>
+
+Bernardo Collufio is a PhD student with PNRR fellowship in the “Mathematics in Natural, Social and Life Sciences” curriculum at the GSSI. He obtained a Bachelor’s degree in Mathematics at University of Messina and a Master’s degree in Applied Mathematics at University of Pavia, where he specialized in Mathematical Physics. The topic of his Master thesis was about the formulation, mathematical study and simulation of a kinetic model that could describe first ionization's processes of monatomic rarefied gases confined in reflective and bounded containers. His main interests concern the mathematical methods and models used for describe plasmas and interacting particles systems.
+
+<br>
+
 ### Dayana Savostianova
 
 <img class="people_photo" src="
@@ -86,6 +94,15 @@ Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/profes
 
 <br><br><br><br><br><br><br>
 
+### Grigorii (Grisha) Buklei
+
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/f5bdcc044634ef05f83fc69829d1ba79_XL.jpg"/>
+
+Grigorii (Grisha) Buklei is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. He was awarded with PNRR-funded scholarship. Previously, Grigorii was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). He holds a BSc in Applied Mathematics and Information Science from the Higher School of Economics. His current research interests are in the scope of mathematical modeling, Bayesian experimental design, and algorithmic game theory.
+
+<br>
+
 ### Helena Biscevic
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/086e05a6efcb9ae6635611c175c3109b_L.jpg"/>
@@ -100,6 +117,14 @@ Joint supervision with [Prof. Raffaele D'Ambrosio](http://people.disim.univaq.it
 https://www.gssi.it/media/k2/items/cache/bb88c4ba66f00eda9054e07bc387285b_L.jpg"/>
 
 Miryam Gnazzo is a PhD student in Mathematics at the GSSI in L’Aquila.  She holds a MSc in Mathematics from the University of Pisa, with a thesis about a resultant-based method for bivariate rootfinding. Her current research interests are in the field of numerical linear algebra, particularly in multivariate polynomial rootfinding.
+
+<br><br>
+
+### Pietro Sittoni
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/3608f708a3c309d512faf18617f98cb8_XL.jpg"/>
+
+Pietro Sittoni is a PhD student in Mathematics in Natural, Social, and Life Sciences. He holds a MSc in Data Science from the University of Padova. During his thesis, he studied the properties of subhomogeneous operators, exploiting them to present a new analysis of the existence and uniqueness of fixed points, using it to design stable deep equilibrium models and applying it to mathematical optimization.
 
 <br><br>
 
