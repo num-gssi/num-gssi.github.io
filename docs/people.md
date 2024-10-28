@@ -8,8 +8,7 @@
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/16fd96deba85a06311383433f152ed24_XL.jpg"/>
 
-Nicola Gugliemi is full professor in Numerical Analysis and Chair of the Doctoral School in Mathematics at GSSI. He is interested in the general area of scientific computing, particularly numerical analysis of ordinary and delay differential equations, stability analysis of (discretized) dynamical systems - including variable coefficient and switched systems - and ode methods in matrix perturbation theory and control, for high-dimensional problems.  
-More specifically: Stiff and singularly perturbed problems (in particular in the framework of delay differential equations); software development for general classes of implicit delay differential equations; stability analysis of numerical integrators for ordinary and delay differential equations; computation of the joint spectral characteristics of a set of matrices, with application to contractivity analysis of time dependent systems of differential and difference equations; ode-based pseudospectral computations for both unstructured and structured problems; non-smooth analysis of discontinuous differential equations with focus on the computation of weak solutions.   
+Nicola Gugliemi is full professor in Numerical Analysis and Chair of the Doctoral School in Mathematics at GSSI. He is interested in the general area of scientific computing, particularly numerical analysis of ordinary and delay differential equations, stability analysis of (discretized) dynamical systems - including variable coefficient and switched systems - and ode methods in matrix perturbation theory and control, for high-dimensional problems. More specifically: Stiff and singularly perturbed problems (in particular in the framework of delay differential equations); software development for general classes of implicit delay differential equations; stability analysis of numerical integrators for ordinary and delay differential equations; computation of the joint spectral characteristics of a set of matrices, with application to contractivity analysis of time dependent systems of differential and difference equations; ode-based pseudospectral computations for both unstructured and structured problems; non-smooth analysis of discontinuous differential equations with focus on the computation of weak solutions.   
 [Personal Web Page](https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola)
 
 
@@ -60,8 +59,7 @@ Before moving to the GSSI, I was a Marie Curie Individual Fellow at the Universi
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/d2808c1e280bd25060c03c46b800b728_XL.jpg"/>
 
-Arturo De Marinis is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI.
-He holds a degree in Mathematics from the University of Bari Aldo Moro. In his thesis, he proposed numerical methods for trajectory optimization of unmanned aerial vehicles based on optimal control theory. His current research interests lie between numerical analysis and machine learning, in particular he is now studying the stability of new machine learning models for supervised learning, the so called neural ordinary differential equations.
+Arturo De Marinis is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI. He holds a degree in Mathematics from the University of Bari Aldo Moro. In his thesis, he proposed numerical methods for trajectory optimization of unmanned aerial vehicles based on optimal control theory. His current research interests lie between numerical analysis and machine learning, in particular he is now studying the stability of new machine learning models for supervised learning, the so called neural ordinary differential equations.
 
 <br>
 
@@ -71,7 +69,6 @@ https://www.gssi.it/media/k2/items/cache/f00454cdb30717873333977da5f5d14e_XL.jpg
 
 Bernardo Collufio is a PhD student with PNRR fellowship in the “Mathematics in Natural, Social and Life Sciences” curriculum at the GSSI. He obtained a Bachelor’s degree in Mathematics at University of Messina and a Master’s degree in Applied Mathematics at University of Pavia, where he specialized in Mathematical Physics. The topic of his Master thesis was about the formulation, mathematical study and simulation of a kinetic model that could describe first ionization's processes of monatomic rarefied gases confined in reflective and bounded containers. His main interests concern the mathematical methods and models used for describe plasmas and interacting particles systems.
 
-<br>
 
 ### Dayana Savostianova
 
@@ -101,7 +98,6 @@ https://www.gssi.it/media/k2/items/cache/f5bdcc044634ef05f83fc69829d1ba79_XL.jpg
 
 Grigorii (Grisha) Buklei is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. He was awarded with PNRR-funded scholarship. Previously, Grigorii was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). He holds a BSc in Applied Mathematics and Information Science from the Higher School of Economics. His current research interests are in the scope of mathematical modeling, Bayesian experimental design, and algorithmic game theory.
 
-<br>
 
 ### Helena Biscevic
 <img class="people_photo" src="
@@ -118,7 +114,7 @@ https://www.gssi.it/media/k2/items/cache/bb88c4ba66f00eda9054e07bc387285b_L.jpg"
 
 Miryam Gnazzo is a PhD student in Mathematics at the GSSI in L’Aquila.  She holds a MSc in Mathematics from the University of Pisa, with a thesis about a resultant-based method for bivariate rootfinding. Her current research interests are in the field of numerical linear algebra, particularly in multivariate polynomial rootfinding.
 
-<br><br>
+<br><br><br>
 
 ### Pietro Sittoni
 <img class="people_photo" src="
@@ -147,8 +143,7 @@ https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/84ba3d43f2d9c97ae0b2dbce27901e0d_L.jpg"/>
 
-Stefano Sicilia is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI. He studied Mathematics at the University of Pisa both for Bachelor’s and Master’s degrees, focusing on applied mathematics, numerical analysis and data science. His Master’s degree thesis deals with numerical methods for polynomial root-finding.
-His current research interests are numeric linear algebra, polynomial root-finding and numerical methods for differential equations.
+Stefano Sicilia is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI. He studied Mathematics at the University of Pisa both for Bachelor’s and Master’s degrees, focusing on applied mathematics, numerical analysis and data science. His Master’s degree thesis deals with numerical methods for polynomial root-finding. His current research interests are numeric linear algebra, polynomial root-finding and numerical methods for differential equations.
 
 <br><br><br>
 
