@@ -3,7 +3,6 @@
 <!-- <br> -->
 
 
-
 ###  Nicola Guglielmi
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/16fd96deba85a06311383433f152ed24_XL.jpg"/>
@@ -67,7 +66,7 @@ Arturo De Marinis is a PhD Student in Mathematics in Natural, Social and Life Sc
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/f00454cdb30717873333977da5f5d14e_XL.jpg"/>
 
-Bernardo Collufio is a PhD student with PNRR fellowship in the “Mathematics in Natural, Social and Life Sciences” curriculum at the GSSI. He obtained a Bachelor’s degree in Mathematics at University of Messina and a Master’s degree in Applied Mathematics at University of Pavia, where he specialized in Mathematical Physics. The topic of his Master thesis was about the formulation, mathematical study and simulation of a kinetic model that could describe first ionization's processes of monatomic rarefied gases confined in reflective and bounded containers. His main interests concern the mathematical methods and models used for describe plasmas and interacting particles systems.
+Bernardo Collufio is a PhD student with PNRR fellowship in “Mathematics in Natural, Social and Life Sciences” curriculum at GSSI. He obtained his Bachelor’s degree in Mathematics at University of Messina and Master’s degree in Applied Mathematics at University of Pavia, with a thesis entitled "Mathematical and numerical study of first ionization phenomena for atomic hydrogen in an extended phase space". His main interests concern the study of numerical schemes for solving kinetic PDEs arising in many physical processes in the context of Gas Dynamics, Fluid Dynamics and Plasma Physics, with a particular focus on high accuracy, asymptotic preserving property and preservation of conserved quantities.
 
 
 ### Dayana Savostianova
