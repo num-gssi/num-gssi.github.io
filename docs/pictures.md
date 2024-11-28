@@ -4,6 +4,10 @@ disable_toc: true
 
 # Group Pictures
 
+- November 28, 2024. <br> Just a warm family pizza!
+
+![](img/Pizza.jpg)
+
 - November 21, 2024. <br> Dinner with Prof. Bertram Düring, University of Warwick, United Kingdom, Prof. Carola-Bibiane Schönlieb, University of Cambridge, United Kingdom, Prof. Emre Mengi, Koç University, Turkey, and Prof. Nikos Pitsianis, Aristotle University of Thessaloniki, Greece.
 
 ![](img/CarolaEmreNikos.jpg)
