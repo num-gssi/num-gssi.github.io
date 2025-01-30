@@ -4,7 +4,7 @@ disable_toc: true
 
 # Group Pictures
 
-- November 27, 2024. <br> Just a warm family pizza!
+- November 27, 2024.
 
 ![](img/Pizza.jpg)
 
