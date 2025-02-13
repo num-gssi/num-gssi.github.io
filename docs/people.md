@@ -106,12 +106,12 @@ Joint supervision with [Prof. Raffaele D'Ambrosio](http://people.disim.univaq.it
 
 <br><br><br><br><br><br><br>
 
-### Miryam Gnazzo
+<!-- ### Miryam Gnazzo
 
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/bb88c4ba66f00eda9054e07bc387285b_L.jpg"/>
 
-Miryam Gnazzo is a PhD student in Mathematics at the GSSI in L’Aquila.  She holds a MSc in Mathematics from the University of Pisa, with a thesis about a resultant-based method for bivariate rootfinding. Her current research interests are in the field of numerical linear algebra, particularly in multivariate polynomial rootfinding.
+Miryam Gnazzo is a PhD student in Mathematics at the GSSI in L’Aquila.  She holds a MSc in Mathematics from the University of Pisa, with a thesis about a resultant-based method for bivariate rootfinding. Her current research interests are in the field of numerical linear algebra, particularly in multivariate polynomial rootfinding. -->
 
 <br><br><br>
 
@@ -137,12 +137,12 @@ https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg
 
 <br><br><br><br><br><br><br><br>
 
-### Stefano Sicilia
+<!-- ### Stefano Sicilia
 
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/84ba3d43f2d9c97ae0b2dbce27901e0d_L.jpg"/>
 
-Stefano Sicilia is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI. He studied Mathematics at the University of Pisa both for Bachelor’s and Master’s degrees, focusing on applied mathematics, numerical analysis and data science. His Master’s degree thesis deals with numerical methods for polynomial root-finding. His current research interests are numeric linear algebra, polynomial root-finding and numerical methods for differential equations.
+Stefano Sicilia is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI. He studied Mathematics at the University of Pisa both for Bachelor’s and Master’s degrees, focusing on applied mathematics, numerical analysis and data science. His Master’s degree thesis deals with numerical methods for polynomial root-finding. His current research interests are numeric linear algebra, polynomial root-finding and numerical methods for differential equations. -->
 
 <br><br><br>
 
@@ -150,7 +150,9 @@ Stefano Sicilia is a PhD Student in Mathematics in Natural, Social and Life Scie
 Anton Savostianov (PhD student) <br>
 Alessia Andò (postdoc) <br>
 Konstantin Prokopchik (PhD student) <br>
-Mattia Manucci (PhD student)
+Mattia Manucci (PhD student) <br>
+Miryam Gnazzo (PhD student) <br>
+Stefano Sicilia (PhD student) <br>
 
 
 <!-- # External Members 
