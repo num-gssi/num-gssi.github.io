@@ -2,18 +2,16 @@
 disable_toc: true
 ---
 
-<img src="img/gssi-view.jpg" class="background_img">
+<img src="img/gssi-view.png" class="background_img">
 
 <div class="credits">
     Photo by Alee Kadhim Obeid
 </div>
 
-<img class="gssi_logo" src="img/logo-quadrato-no-testo-bicolor.jpg"/>
+<!-- <img class="gssi_logo" src="img/logo-quadrato-no-testo-bicolor.jpg"/> -->
 
-<h1 class="title"> Numerical Analysis  and Data Science Group </h1> 
-<subtitle> Gran Sasso Science Institute </subtitle>
-
-<!-- ![](img/gssi-mountains.jpg) -->
+<!-- <h1 class="title"> Numerical Analysis  and Data Science Group </h1> 
+<subtitle> Gran Sasso Science Institute </subtitle> -->
 
 This is the homepage of the Numerical Analysis and Data Science Group at [Gran Sasso Science Institute](https://www.gssi.it).
 

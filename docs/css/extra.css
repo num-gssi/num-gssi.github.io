@@ -18,9 +18,9 @@ h3 {margin-top: 5rem;}
   overflow: visible;
   display: block;
   margin: 0 auto;
-  width: 161.2%;
+  width: 120%;
+  left: -10%;
   max-width: 5000px;
-  left: -31%;
   top: -18px;
 }
 .credits {
@@ -28,7 +28,7 @@ h3 {margin-top: 5rem;}
   text-align: right;
   margin: 0 auto;
   font-size: 10px;
-  right: -29.8%;
+  right: -10%;
   top: -28px;
 }
 
