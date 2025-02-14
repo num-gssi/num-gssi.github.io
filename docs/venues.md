@@ -12,9 +12,9 @@ All our seminars and activities are held in the Gran Sasso Science Institute bui
 
 The main rooms we make use of are:
 
-- Main Lecture Hall (MLH);
-- Room A, B, C, D;
-- Library;
+- Main Lecture Hall (MLH), ground floor;
+- Room A, B, C, D, floor -1;
+- Library, floor -1.
 
 ## Ex-INPS building
 <br>
@@ -26,7 +26,7 @@ The main rooms we make use of are:
 
 The rooms of Ex-INPS we mainly make use of are:
 
-- Conference room;
+- Conference room, floor -1.
 
 ## Rectorate building
 <br>
@@ -38,4 +38,4 @@ The rooms of Ex-INPS we mainly make use of are:
 
 The rooms of the rectorate we mainly make use of are:
 
-- Auditorium;
+- Auditorium, floor -1.
