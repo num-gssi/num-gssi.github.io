@@ -25,7 +25,7 @@ The reading group is organized by our early career group members and supervised/
 |-|-|-|-|
 <img style="width:60px;" src="https://www.gssi.it/media/k2/items/cache/f00454cdb30717873333977da5f5d14e_L.jpg">|[Bernardo Collufio](https://www.gssi.it/people/students/students-maths/item/24622-collufio-bernardo), GSSI, L'Aquila| <div style="width:300px;"></div>| December 2024 -- Present|
 <img style="width:60px;" src="https://www.gssi.it/media/k2/items/cache/19750442099982ecbbaed6577f5defed_XL.jpg">|[Piero Deidda](https://www.gssi.it/people/post-doc/post-doc-maths/item/22288-piero-deidda), GSSI, L'Aquila| <div style="width:300px;"></div>| January 2024 -- Present|
-<img style="width:60px;" src="https://www.gssi.it/media/k2/items/cache/d2808c1e280bd25060c03c46b800b728_L.jpg">|[Arturo De Marinis](https://www.gssi.it/people/students/students-maths/item/15651-de-marinis-arturo), GSSI, L'Aquila| <div style="width:300px;"></div>| February 2023 -- Present|
+<img style="width:60px;" src="https://www.gssi.it/media/k2/items/cache/d2808c1e280bd25060c03c46b800b728_L.jpg">|[Arturo De Marinis](https://www.gssi.it/people/students/students-maths/item/15651-de-marinis-arturo), GSSI, L'Aquila| <div style="width:300px;"></div>| February 2023 -- February 2025|
 <img style="width:60px;" src="https://www.gssi.it/media/k2/items/cache/7f9f1b99149b66abc7b5a2731faa302f_L.jpg">|[Dayana Savostianova](https://www.gssi.it/people/students/students-maths/item/11045-savostianova-dayana), GSSI, L'Aquila| <div style="width:300px;"></div>| November 2021 -- Summer 2022|
 
 ### Academic Year 2024/25
