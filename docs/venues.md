@@ -26,7 +26,7 @@ The main rooms we make use of are:
 
 The rooms of Ex-INPS we mainly make use of are:
 
-- Conference room, floor -1.
+- Conference Room, floor -1.
 
 ## Rectorate building
 <br>
