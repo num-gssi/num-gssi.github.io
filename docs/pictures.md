@@ -5,6 +5,7 @@ disable_toc: true
 # Group Pictures
 |||
 |-|-|
+**April 14, 2025** <br><br> <img src="/img/Murari.jpg" width="550"> <br><br> With *Davide Murari* (University of Cambridge).||
 **April 8, 2025** <br><br> <img src="/img/Hairer.jpg" width="550"> <br><br> With Prof. *Ernst Hairer* (University of Geneva).|**February 19, 2025** <br><br> <img src="/img/190225.jpg" width="550"> <br><br> With Prof. *Yuji Nakatsukasa* (University of Oxford).|
 **February 17, 2025** <br><br> <img src="/img/BrugnanoIavernaro.jpg" width="550"> <br><br> With Prof. *Luigi Brugnano* (University of Florence) and Prof. *Felice Iavernaro* (University of Bari).|**February 13, 2025** <br><br> <img src="/img/Matthias2.jpg" width="550"> <br><br> With Prof. *Matthias Voigt* (UniDistance).|
 **February 5, 2025** <br><br> <img src="/img/Russo.jpg" width="550"> <br><br> With Prof. *Giovanni Russo* (University of Catania) and Prof. *Clarissa Astuto* (University of Catania).| **November 27, 2024** <br><br> <img src="/img/Pizza.jpg" width="550">|
