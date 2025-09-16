@@ -23,6 +23,23 @@ Francesco Tudisco is an Associate Professor (Reader) in Machine Learning affilia
 
 # Postdocs
 
+### Marco Sutti
+
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/58a14876b3ba82622885cf13fee14994_XL.jpg"/>
+
+I earned my Ph.D. in Mathematics from the University of Geneva (Nov 2020) under the supervision of Bart Vandereycken, after completing an M.Sc. in Computational Science and Engineering at EPFL (2015) and earlier B.Sc./M.Sc. studies in Civil Engineering at the Politecnico di Milano’s Lecco campus. Growing up in Valtellina, Lombardy, I initially pursued civil engineering studies, but during that time, I discovered a stronger passion for the more theoretical and scientific aspects of mathematics. This realization led me to move to Lausanne, where I completed my master’s at EPFL (2013‑2015).
+
+After my doctorate, I took a brief interdisciplinary pause (2021‑early 2022) to study Mandarin Chinese at the National Taiwan Normal University. I then began a postdoctoral fellowship at the National Center for Theoretical Sciences (NCTS) in July 2022, continuing there until 2025. On 1 August 2025, I joined the Gran Sasso Science Institute (GSSI).
+
+I’ve loved geometry since childhood—​drawing shapes on notebook margins sparked a fascination with how space works. Today, that curiosity drives me to tackle problems that sit at the intersection of mathematics and code. I focus on:
+
+Riemannian geometry & matrix manifolds – geometric structures for non‑Euclidean optimization and inference.
+Low‑rank matrix & tensor decompositions – compact, efficient representations of high‑dimensional data.
+Computational geometry – algorithmic methods for processing and analyzing geometric data.
+My personal webpage is: [https://marcosutti.net/](https://marcosutti.net/)
+
+Office: Office PT-D, GSSI "Mariani Building", Viale Francesco Crispi, 3, 67100 L'Aquila
+
 ### Angelo Alberto Casulli
 
 <img class="people_photo" src="https://gssi.it/media/k2/items/cache/bc720404df99ccc30eec1c1bd757f56c_XL.jpg"/>
@@ -59,14 +76,11 @@ https://www.gssi.it/media/k2/items/cache/d2808c1e280bd25060c03c46b800b728_XL.jpg
 
 Arturo De Marinis is a PhD Student in Mathematics in Natural, Social and Life Sciences at GSSI. He holds a degree in Mathematics from the University of Bari Aldo Moro. In his thesis, he proposed numerical methods for trajectory optimization of unmanned aerial vehicles based on optimal control theory. His current research interests lie between numerical analysis and machine learning, in particular he is now studying the stability of new machine learning models for supervised learning, the so called neural ordinary differential equations.
 
-<br>
-
 ### Bernardo Collufio
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/f00454cdb30717873333977da5f5d14e_XL.jpg"/>
 
 Bernardo Collufio is a PhD student with PNRR fellowship in “Mathematics in Natural, Social and Life Sciences” curriculum at GSSI. He obtained his Bachelor’s degree in Mathematics at University of Messina and Master’s degree in Applied Mathematics at University of Pavia, with a thesis entitled "Mathematical and numerical study of first ionization phenomena for atomic hydrogen in an extended phase space". His main interests concern the study of numerical schemes for solving kinetic PDEs arising in many physical processes in the context of Gas Dynamics, Fluid Dynamics and Plasma Physics, with a particular focus on high accuracy, asymptotic preserving property and preservation of conserved quantities.
-
 
 ### Dayana Savostianova
 
@@ -95,7 +109,6 @@ Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/profes
 https://www.gssi.it/media/k2/items/cache/f5bdcc044634ef05f83fc69829d1ba79_XL.jpg"/>
 
 Grigorii (Grisha) Buklei is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. He was awarded with PNRR-funded scholarship. Previously, Grigorii was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). He holds a BSc in Applied Mathematics and Information Science from the Higher School of Economics. His current research interests are in the scope of mathematical modeling, Bayesian experimental design, and algorithmic game theory.
-
 
 ### Helena Biscevic
 <img class="people_photo" src="
