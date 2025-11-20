@@ -1,8 +1,8 @@
 # Venues
 
-All our seminars and activities are held in the Gran Sasso Science Institute buildings. These are the *Ex-ISEF building*, the *Ex-INPS building* and the *Rectorate building*.
+All our seminars and activities are held in the Gran Sasso Science Institute buildings. These are the *Aurora building*, the *Zenith building* and the *Polaris building*.
 
-## Ex-ISEF building
+## Aurora building (ex-ISEF)
 <br>
 <img src="/img/ex_isef.jpg" width="780">
 
@@ -10,13 +10,13 @@ All our seminars and activities are held in the Gran Sasso Science Institute bui
 
 **Address:** Viale Francesco Crispi, 7, 67100 L'Aquila AQ
 
-The main rooms we make use of are:
+The rooms we mainly make use of are:
 
 - Main Lecture Hall (MLH), ground floor;
 - Room A, B, C, D, floor -1;
 - Library, floor -1.
 
-## Ex-INPS building
+## Zenith building (ex-INPS)
 <br>
 <img src="/img/ex_inps.jpg" width="780">
 
@@ -24,11 +24,11 @@ The main rooms we make use of are:
 
 **Address:** Viale Luigi Rendina, 26-28, 67100 L'Aquila AQ
 
-The rooms of Ex-INPS we mainly make use of are:
+The rooms we mainly make use of are:
 
 - Conference Room, floor -1.
 
-## Rectorate building
+## Polaris building (Rectorate)
 <br>
 <img src="/img/rectorate1.jpg" width="780">
 
@@ -36,6 +36,6 @@ The rooms of Ex-INPS we mainly make use of are:
 
 **Address:** Via Michele Iacobucci, 2, 67100 L'Aquila AQ
 
-The rooms of the rectorate we mainly make use of are:
+The rooms we mainly make use of are:
 
 - Auditorium, floor -1.
