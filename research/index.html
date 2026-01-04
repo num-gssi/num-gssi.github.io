@@ -156,9 +156,9 @@
 <p>and their applications to a wide range of real-world problems. Some specific topics of interest  are described below.</p>
 <h3 id="efficient-training-of-stable-implicit-depth-neural-networks">Efficient training of stable implicit-depth neural networks</h3>
 <p>Supervised and semi-supervised classification are among the most important tasks in machine learning and data mining. The state-of-the-art techniques for both these two tasks are based on deep Neural Networks (NNs) or graph NNs. From a mathematical viewpoint, these models boil down to a regularized constrained optimization problem, </p>
-<p>$$\begin{cases} \min \ell(f(x),y) + \lambda \varphi(f) &amp;  \newline
- \text{such that } f\in \mathcal F:=\{f:f(x)=\sigma(W_k\sigma(\cdots \sigma(W_1\sigma(W_0 x))\cdots))\} &amp; 
-\end{cases}$$</p>
+<div class="arithmatex">\[\begin{cases} \min \ell(f(x),y) + \lambda \varphi(f) &amp;  \newline
+ \text{such that } f\in \mathcal F:=\\{f:f(x)=\sigma(W_k\sigma(\cdots \sigma(W_1\sigma(W_0 x))\cdots))\\} &amp; 
+\end{cases}\]</div>
 <p>where the constraints form a function space \( \mathcal F \) parametrized by structured matrices \(W = (W_0,\dots,W_k)\), including Toeplitz and multilevel Toeplitz matrices (convolutional operators) and graph or hypergraph matrices (discrete Laplacian operators and graph-convolutional filters).</p>
 <p>Recent work has shown the advantages of so-called implicit-depth or continuous-time neural networks, where the constraints in the NN optimization problem are defined via a nonlinear system of ODEs or PDEs, i.e. for instance we replace \(f\in \mathcal F\) with a differential equation of the form \( \dot f = f(W,t)\). Popular instances of this type of NN models are so-called Neural ODE  and Deep Equilibrium Models. These approaches, which trace back to early work on recurrent backpropagation, have a number of advantages: (a) they have been recently shown to match or even exceed the performance of traditional NNs on time series and image data (e.g. sequence modeling); (b) memory-wise, they are drastically more efficient than traditional NNs as backpropagation is done analytically and does not require to store internal weights, allowing to efficiently handle deeper architectures.</p>
 <p>While prediction accuracy of NN-based models has reached extraordinary performance, their potential instability with respect to adversarial attacks is a major limitation and one of the most important challenges in the field. Having guarantees of robustness against adversarial attacks is an essential requirement for the application of NNs in the society. In an unstable dynamical system, small perturbations of the initial state (the training dataset) may lead to very different solutions, thus a stable continuous-time NN architecture is an essential requirement for robustness against adversarial attacks. The obvious approach to ensure stability is to restrict the constraints set (the structure of the admissible functions), for example by limiting the matrix parameters to skew-Hermitian convolutional operators of the form
@@ -208,11 +208,8 @@ Even though spectral methods are both powerful and convenient, they often rely o
     <script>var base_url = ".."</script>
     
     <script src="../js/base.js"></script>
-    <script src="../assets/mathjaxhelper.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
-    <script src="../assets/config.js"></script>
+    <script src="../javascripts/mathjax.js"></script>
+    <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
