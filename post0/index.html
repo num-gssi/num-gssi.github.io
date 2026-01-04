@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Numerical diffusion - CompMath @ GSSI</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+    <link href="../css/extra.css" rel="stylesheet">
+    <link href="http://tikzjax.com/v1/fonts.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">CompMath @ GSSI</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../people/">People</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../seminar/">Seminars</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../reading_group/">Reading Group</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../posts/">Posts</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../calendar/">Calendar</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../venues/">Venues</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-12" role="main">
+
+<h1 id="numerical-diffusion">Numerical diffusion</h1>
+<p><em>by</em> <a href="https://www.gssi.it/people/students/students-maths/item/24622-collufio-bernardo"><em>Bernardo Collufio</em></a></p>
+<hr />
+<p><em>Attached:</em> <a href="https://drive.google.com/file/d/1QDmBv0mDV0rtko7NOUEDxKOuw5foiEkP/view?usp=sharing">transport.py</a>, <a href="https://drive.google.com/file/d/18MtfnQGccdTnMliB9yGGQMmKaI_QbBgs/view?usp=sharing">transport.m</a></p>
+<hr />
+<p>Let’s consider the initial value problem for <span class="arithmatex">\(u=u(t,x)\)</span></p>
+<div class="arithmatex">\[
+\begin{equation}\left\{\begin{aligned}&amp;\partial_tu+c\,\partial_xu=0,\qquad(t,x)\in[0,t_{max}]\times[x_{min},x_{max}],\\ &amp;u(0,x)=u_0(x),\end{aligned}\right.\end{equation}
+\]</div>
+<p>with <span class="arithmatex">\(c&gt;0\)</span>, and introduce the discretization denoted by </p>
+<div class="arithmatex">\[
+u^n_{j}\approx u(t^n,x_j),
+\]</div>
+<p><span class="arithmatex">\(\{t^n\}_n,\{x_j\}_j\)</span> being the usual uniformly distributed grid points </p>
+<div class="arithmatex">\[
+\Delta t=\frac{t_{max}}{N_t},\quad\Delta x=\frac{x_{max}-x_{min}}{N_x},\qquad t^n=n\,\Delta t,\quad x_j=x_{min}+j\Delta x.
+\]</div>
+<p>We want to investigate the consistence of the following numerical methods:</p>
+<ul>
+<li>
+<p><strong>Explicit Upwind (first order accurate)</strong></p>
+<div class="arithmatex">\[
+u^{n+1}_j=u^n_j-c\,\frac{\Delta t}{\Delta x}(u^n_j - u^n_{j-1}).
+\]</div>
+</li>
+<li>
+<p><strong>Lax-Friedrichs (second order accurate)</strong></p>
+</li>
+</ul>
+<div class="arithmatex">\[
+u^{n+1}_j=\frac{u^n_{j+1}+u^n_{j-1}}{2}-c\,\frac{\Delta t}{2\,\Delta x}(u^n_{j+1}-u^n_{j-1}).
+\]</div>
+<ul>
+<li><strong>Lax-Wendroff (second order accurate)</strong></li>
+</ul>
+<div class="arithmatex">\[
+u^{n+1}_j=u^n_j-c\frac{\Delta t}{2\,\Delta x}(u^n_{j+1}-u^n_{j-1})+c^2\,\frac{\Delta t^2}{2\,\Delta x^2}(u^n_{j+1}-2\,u^n_j+u^n_{j-1}).
+\]</div>
+<p>In fact, for <span class="arithmatex">\(c&gt;0\)</span> all of these share the same CFL condition </p>
+<div class="arithmatex">\[
+\lambda := c\,\frac{\Delta t}{\Delta x}\leq1,
+\]</div>
+<p>which ensures their stability and prevent them from blowing up at finite time. However, the choice of <span class="arithmatex">\(\lambda&lt;1\)</span> introduces a so-called <strong>numerical diffusion</strong> (or dissipation), consisting of a tendency to flatten (dissipate) the solution more and more after each time step. Although the Lax-Friedrichs method is second order accurate, one can observe a very strong diffusion, providing solutions which are physically inconsistent and even worse than those produced with a only first order accurate method such as Explicit Upwind.</p>
+<p>The solution to <span class="arithmatex">\((1)\)</span> is given by </p>
+<div class="arithmatex">\[
+u(t,x)=u_0(x-c\,t),
+\]</div>
+<p>just consisting of a shift of the initial data in the right direction, with velocity <span class="arithmatex">\(c\)</span>. In the Python (or MATLAB) script “transport.py” (or "transport.m") you can see a comparison of the three methods; I took a simple Gaussian function as initial data and I used periodic boundary conditions. We expect this Gaussian to be just transported to the right, but we can clearly see that the Explicit Upwind and the Lax-Friedrichs methods tend to flatten it. This effect is even more evident when we consider a smaller CFL value (you can do so by changing the value of the “cfl” variable in the Python or MATLAB script). On the other hand, picking <span class="arithmatex">\(\lambda=1\)</span> we are able to recover a perfect transport for both methods.</p>
+<h3 id="so-we-just-need-to-put-lambda1-to-solve-this-issue">So… we just need to put <span class="arithmatex">\(\lambda=1\)</span> to solve this issue?</h3>
+<p>Actually, in practice, this could be very dangerous. Numerical noise is always present in every algorithm; any number fed into the code is always affected by a round-off error, and even a microscopic round-off error on <span class="arithmatex">\(\Delta t\)</span>, <span class="arithmatex">\(\Delta x\)</span> or <span class="arithmatex">\(c\)</span> may lead to a value of <span class="arithmatex">\(\lambda\)</span> greater than <span class="arithmatex">\(1\)</span> (hence, the code will blow up eventually!). The best choice is to take <span class="arithmatex">\(\lambda\)</span> slightly less than <span class="arithmatex">\(1\)</span>. Take-home message: avoid the <span class="arithmatex">\(\lambda=1\)</span> shortcut.</p>
+<h1 id="the-modified-equations">The modified equations</h1>
+<p>In this section I want to show you that this numerical effect can be actually deduced from our methods’ formulas through the so-called <strong>modified equations,</strong> and it can be also quantified; this will allow us to make a comparison of the methods above and justify what we observed numerically from the Python script.</p>
+<p>Let us first consider the Explicit Upwind method. From a continuous perspective, we can naively interprete it as the outcome of a point-wise evaluation of the relation </p>
+<div class="arithmatex">\[
+u(t+\Delta t,x)=u(t,x)-c\frac{\Delta t}{\Delta x}(u(t,x)-u(t,x-\Delta x)),
+\]</div>
+<p>onto the points <span class="arithmatex">\(\{(t^n,x_j)\}_{n,j}\)</span>; in some sense the method seeks for a function <span class="arithmatex">\(u\)</span> satisfying this relation. What if this function actually solves <span class="arithmatex">\((1)\)</span>? Let’s perform a Taylor expansion of <span class="arithmatex">\(u(t+\Delta t,x)\)</span> and <span class="arithmatex">\(u(t,x-\Delta x)\)</span> up to third order to get</p>
+<div class="arithmatex">\[
+u+\Delta t\,\partial_t u+\frac{\Delta t^2}{2}\partial^2_{tt}u = u-c\frac{\Delta t}{\Delta x}\Bigg(\Delta x\,\partial_x u-\frac{\Delta x^2}{2}\partial^2_{xx}u\Bigg)+O(\Delta t^3,\Delta x^2\Delta t),
+\]</div>
+<p>where I omitted the arguments <span class="arithmatex">\((t,x)\)</span> of <span class="arithmatex">\(u\)</span> and its derivatives for brevity. Assuming <span class="arithmatex">\(u\)</span> solves <span class="arithmatex">\((1)\)</span>, we have that </p>
+<div class="arithmatex">\[
+\partial^2_{tt}u=\partial_t(\partial_t u)=-c\,\partial_t(\partial_x u)=-c\,\partial_x(\partial_t u)=c^2\,\partial^2_{xx}u.
+\]</div>
+<p>Plugging this expression into the previous one and dividing everything by <span class="arithmatex">\(\Delta t\)</span> we get </p>
+<div class="arithmatex">\[
+\begin{aligned}\partial_tu+c\,\partial_xu&amp;=\frac{c\,\Delta x}{2}\Bigg(1-c\frac{\Delta t}{\Delta x}\Bigg)\partial^2_{xx}u +O(\Delta t^2,\Delta x^2)\\&amp;= \frac{c\,\Delta x}{2}(1-\lambda)\partial^2_{xx}u+O(\Delta t^2,\Delta x^2).\end{aligned}
+\]</div>
+<p>As you can see, we have first order consistence with the target equation,</p>
+<div class="arithmatex">\[
+\partial_tu+c\,\partial_xu=O(\Delta x),
+\]</div>
+<p>and second order consistence with the <strong>diffusive equation,</strong></p>
+<div class="arithmatex">\[
+\partial_t u + c\,\partial_x u=\nu_{eu}\,\partial^2_{xx}u+O(\Delta t^2,\Delta x^2),
+\]</div>
+<p>with diffusion coefficient </p>
+<div class="arithmatex">\[
+\nu_{eu}=\frac{c\Delta x}{2}(1-\lambda);
+\]</div>
+<p>this is precisely the numerical diffusion of the Explicit Upwind method. We can perform the same computations for the Lax-Friedrichs method, obtaining</p>
+<div class="arithmatex">\[
+\nu_{lf}=\frac{c\,\Delta x}{2}\frac{1-\lambda^2}{\lambda}.
+\]</div>
+<p>We can immediately observe that this becomes huge when <span class="arithmatex">\(\lambda\)</span> is small (go back to the Python script, take <span class="arithmatex">\(\lambda=0.001\)</span> and see what happens); moreover,</p>
+<div class="arithmatex">\[
+\nu_{lf}=\frac{1+\lambda}{\lambda}\nu_{eu}&gt;\nu_{eu},
+\]</div>
+<p>which justifies our numerical observations. Lastly, it is interesting to see that the same calculations for the Lax-Wendroff method lead to </p>
+<div class="arithmatex">\[
+\nu_{lw}=0.
+\]</div>
+</aside>
+<h3 id="exercise">Exercise</h3>
+<p>Show that the Lax-Wendroff method has third order consistence with the <strong>dispersive equation</strong> </p>
+<div class="arithmatex">\[
+\partial_tu+c\,\partial_xu=\mu\,\partial^3_{xxx}u.
+\]</div>
+</aside></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <!-- 
+        <hr>
+        <p>
+        <small>Made with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+         -->
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../javascripts/mathjax.js"></script>
+    <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
