@@ -21,7 +21,7 @@ disable_toc: false
 
 [Call for Expressions of Interest for a Faculty Position at the level of tenure track Assistant Professor (RTDB) in the Numerical Analysis Group (Math Division) of the Gran Sasso Science Institute, School of Advanced Studies.](https://www.gssi.it/communication/announcements/item/16186-expression-of-interest-tenure-track-assistant-professor-in-numerical-analysis-rtdb-in-the-mathematics-area-at-gssi)
 
-The [Numerical Analysis and Data Science group](../) of the Gran Sasso Science Institute (GSSI) invites expressions of interest for a faculty position at the Assistant Professor level (Tenure Track - RTDB) from highly qualified scholars worldwide.
+The Numerical Analysis and Data Science group of the Gran Sasso Science Institute (GSSI) invites expressions of interest for a faculty position at the Assistant Professor level (Tenure Track - RTDB) from highly qualified scholars worldwide.
 
 The GSSI Numerical Analysis Division hosts scientists carrying out interdisciplinary research on a variety of subjects, ranging from **Matrix Analysis, Numerical ODEs, Numerical PDEs, Dynamical systems, Graph Theory, Numerical Linear Algebra, Computational Network Science and Mathematics of Machine Learning**. 
 
