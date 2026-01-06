@@ -132,7 +132,9 @@
 <h1 id="numerical-diffusion">Numerical diffusion</h1>
 <p><em>by</em> <a href="https://www.gssi.it/people/students/students-maths/item/24622-collufio-bernardo"><em>Bernardo Collufio</em></a></p>
 <hr />
-<p><em>Attached:</em> <a href="https://drive.google.com/file/d/1QDmBv0mDV0rtko7NOUEDxKOuw5foiEkP/view?usp=sharing">transport.py</a>, <a href="https://drive.google.com/file/d/18MtfnQGccdTnMliB9yGGQMmKaI_QbBgs/view?usp=sharing">transport.m</a></p>
+<p><strong>Numerical methods for PDEs represent a well-established research field in Applied Mathematics, and their use as powerful tools for many real-world applications continues to attract interest from the international community. The performance of numerical techniques for solving PDEs can be significantly affected by several undesirable effects. One of these subtle effects, referred to as numerical diffusion, may lead—if not carefully analyzed and controlled—to results that are inconsistent with the underlying physics of the system.</strong></p>
+<hr />
+<p><strong>Attached:</strong> <a href="https://drive.google.com/file/d/1QDmBv0mDV0rtko7NOUEDxKOuw5foiEkP/view?usp=sharing">transport.py</a>, <a href="https://drive.google.com/file/d/18MtfnQGccdTnMliB9yGGQMmKaI_QbBgs/view?usp=sharing">transport.m</a></p>
 <hr />
 <p>Let’s consider the initial value problem for <span class="arithmatex">\(u=u(t,x)\)</span></p>
 <div class="arithmatex">\[
@@ -179,7 +181,7 @@ u(t,x)=u_0(x-c\,t),
 <p>just consisting of a shift of the initial data in the right direction, with velocity <span class="arithmatex">\(c\)</span>. In the Python (or MATLAB) script “transport.py” (or "transport.m") you can see a comparison of the three methods; I took a simple Gaussian function as initial data and I used periodic boundary conditions. We expect this Gaussian to be just transported to the right, but we can clearly see that the Explicit Upwind and the Lax-Friedrichs methods tend to flatten it. This effect is even more evident when we consider a smaller CFL value (you can do so by changing the value of the “cfl” variable in the Python or MATLAB script). On the other hand, picking <span class="arithmatex">\(\lambda=1\)</span> we are able to recover a perfect transport for both methods.</p>
 <h3 id="so-we-just-need-to-put-lambda1-to-solve-this-issue">So… we just need to put <span class="arithmatex">\(\lambda=1\)</span> to solve this issue?</h3>
 <p>Actually, in practice, this could be very dangerous. Numerical noise is always present in every algorithm; any number fed into the code is always affected by a round-off error, and even a microscopic round-off error on <span class="arithmatex">\(\Delta t\)</span>, <span class="arithmatex">\(\Delta x\)</span> or <span class="arithmatex">\(c\)</span> may lead to a value of <span class="arithmatex">\(\lambda\)</span> greater than <span class="arithmatex">\(1\)</span> (hence, the code will blow up eventually!). The best choice is to take <span class="arithmatex">\(\lambda\)</span> slightly less than <span class="arithmatex">\(1\)</span>. Take-home message: avoid the <span class="arithmatex">\(\lambda=1\)</span> shortcut.</p>
-<h1 id="the-modified-equations">The modified equations</h1>
+<h2 id="the-modified-equations">The modified equations</h2>
 <p>In this section I want to show you that this numerical effect can be actually deduced from our methods’ formulas through the so-called <strong>modified equations,</strong> and it can be also quantified; this will allow us to make a comparison of the methods above and justify what we observed numerically from the Python script.</p>
 <p>Let us first consider the Explicit Upwind method. From a continuous perspective, we can naively interprete it as the outcome of a point-wise evaluation of the relation </p>
 <div class="arithmatex">\[
