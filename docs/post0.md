@@ -7,7 +7,10 @@ disable_toc: true
 *by* [*Bernardo Collufio*](https://www.gssi.it/people/students/students-maths/item/24622-collufio-bernardo)
 
 ---
-*Attached:* [transport.py](https://drive.google.com/file/d/1QDmBv0mDV0rtko7NOUEDxKOuw5foiEkP/view?usp=sharing), [transport.m](https://drive.google.com/file/d/18MtfnQGccdTnMliB9yGGQMmKaI_QbBgs/view?usp=sharing)
+**Numerical methods for PDEs represent a well-established research field in Applied Mathematics, and their use as powerful tools for many real-world applications continues to attract interest from the international community. The performance of numerical techniques for solving PDEs can be significantly affected by several undesirable effects. One of these subtle effects, referred to as numerical diffusion, may lead—if not carefully analyzed and controlled—to results that are inconsistent with the underlying physics of the system.**
+
+---
+**Attached:** [transport.py](https://drive.google.com/file/d/1QDmBv0mDV0rtko7NOUEDxKOuw5foiEkP/view?usp=sharing), [transport.m](https://drive.google.com/file/d/18MtfnQGccdTnMliB9yGGQMmKaI_QbBgs/view?usp=sharing)
 
 ---
 
@@ -69,7 +72,7 @@ just consisting of a shift of the initial data in the right direction, with velo
 
 Actually, in practice, this could be very dangerous. Numerical noise is always present in every algorithm; any number fed into the code is always affected by a round-off error, and even a microscopic round-off error on $\Delta t$, $\Delta x$ or $c$ may lead to a value of $\lambda$ greater than $1$ (hence, the code will blow up eventually!). The best choice is to take $\lambda$ slightly less than $1$. Take-home message: avoid the $\lambda=1$ shortcut.
 
-# The modified equations
+## The modified equations
 
 In this section I want to show you that this numerical effect can be actually deduced from our methods’ formulas through the so-called **modified equations,** and it can be also quantified; this will allow us to make a comparison of the methods above and justify what we observed numerically from the Python script.
 
