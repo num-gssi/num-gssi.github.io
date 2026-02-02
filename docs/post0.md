@@ -40,7 +40,7 @@ We want to investigate the consistence of the following numerical methods:
     u^{n+1}_j=u^n_j-c\,\frac{\Delta t}{\Delta x}(u^n_j - u^n_{j-1}).
     $$
     
-- **Lax-Friedrichs (second order accurate)**
+- **Lax-Friedrichs (first order accurate)**
 
 $$
 u^{n+1}_j=\frac{u^n_{j+1}+u^n_{j-1}}{2}-c\,\frac{\Delta t}{2\,\Delta x}(u^n_{j+1}-u^n_{j-1}).
@@ -58,7 +58,7 @@ $$
 \lambda := c\,\frac{\Delta t}{\Delta x}\leq1,
 $$
 
-which ensures their stability and prevent them from blowing up at finite time. However, the choice of $\lambda<1$ introduces a so-called **numerical diffusion** (or dissipation), consisting of a tendency to flatten (dissipate) the solution more and more after each time step. Although the Lax-Friedrichs method is second order accurate, one can observe a very strong diffusion, providing solutions which are physically inconsistent and even worse than those produced with a only first order accurate method such as Explicit Upwind.
+which ensures their stability and prevent them from blowing up at finite time. However, the choice of $\lambda<1$ introduces a so-called **numerical diffusion** (or dissipation), consisting of a tendency to flatten (dissipate) the solution more and more after each time step. One can observe that the Lax-Friedrichs scheme is affected by a very strong diffusion, providing solutions which are physically inconsistent and even worse than those produced with the Explicit Upwind.
 
 The solution to $(1)$ is given by 
 
