@@ -157,7 +157,7 @@ u^{n+1}_j=u^n_j-c\,\frac{\Delta t}{\Delta x}(u^n_j - u^n_{j-1}).
 \]</div>
 </li>
 <li>
-<p><strong>Lax-Friedrichs (second order accurate)</strong></p>
+<p><strong>Lax-Friedrichs (first order accurate)</strong></p>
 </li>
 </ul>
 <div class="arithmatex">\[
@@ -173,7 +173,7 @@ u^{n+1}_j=u^n_j-c\frac{\Delta t}{2\,\Delta x}(u^n_{j+1}-u^n_{j-1})+c^2\,\frac{\D
 <div class="arithmatex">\[
 \lambda := c\,\frac{\Delta t}{\Delta x}\leq1,
 \]</div>
-<p>which ensures their stability and prevent them from blowing up at finite time. However, the choice of <span class="arithmatex">\(\lambda&lt;1\)</span> introduces a so-called <strong>numerical diffusion</strong> (or dissipation), consisting of a tendency to flatten (dissipate) the solution more and more after each time step. Although the Lax-Friedrichs method is second order accurate, one can observe a very strong diffusion, providing solutions which are physically inconsistent and even worse than those produced with a only first order accurate method such as Explicit Upwind.</p>
+<p>which ensures their stability and prevent them from blowing up at finite time. However, the choice of <span class="arithmatex">\(\lambda&lt;1\)</span> introduces a so-called <strong>numerical diffusion</strong> (or dissipation), consisting of a tendency to flatten (dissipate) the solution more and more after each time step. One can observe that the Lax-Friedrichs scheme is affected by a very strong diffusion, providing solutions which are physically inconsistent and even worse than those produced with the Explicit Upwind.</p>
 <p>The solution to <span class="arithmatex">\((1)\)</span> is given by </p>
 <div class="arithmatex">\[
 u(t,x)=u_0(x-c\,t),
