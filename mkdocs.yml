@@ -5,9 +5,10 @@ nav:
   #- Research & PhD Projects: research.md
   - Seminars: seminar.md
   - Reading Group: reading_group.md
+  - Posts: posts.md
   - Calendar: calendar.md
   - Venues: venues.md
-  - Pictures: pictures.md
+  # - Pictures: pictures.md
   # - Join us: vacancies.md
   # - Home: 
   #   - index.md
@@ -33,21 +34,17 @@ extra_css:
   - http://tikzjax.com/v1/fonts.css
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
 
-extra_javascript: 
-  # - javascripts/config.js
-  - assets/mathjaxhelper.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # - http://tikzjax.com/v1/tikzjax.js
-  # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
-  - assets/config.js
-
-
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
-extra_javascript:
+extra_javascript: 
+  # - javascripts/config.js
   - javascripts/mathjax.js
+  - assets/mathjaxhelper.js
+  # - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  # - http://tikzjax.com/v1/tikzjax.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  - assets/config.js
