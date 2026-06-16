@@ -3,8 +3,8 @@ nav:
   - Home: index.md
   - People: people.md
   #- Research & PhD Projects: research.md
-  - Seminars: seminar.md
-  - Reading Group: reading_group.md
+  - NOMADS Seminars: seminar.md
+  - COMPiLE Seminars: reading_group.md
   - Posts: posts.md
   - Calendar: calendar.md
   - Venues: venues.md
