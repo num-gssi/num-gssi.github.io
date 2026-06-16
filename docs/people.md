@@ -40,11 +40,11 @@ My personal webpage is: [https://marcosutti.net/](https://marcosutti.net/)
 
 Office: Office PT-D, GSSI "Mariani Building", Viale Francesco Crispi, 3, 67100 L'Aquila
 
-### Angelo Alberto Casulli
+<!-- ### Angelo Alberto Casulli
 
 <img class="people_photo" src="https://gssi.it/media/k2/items/cache/bc720404df99ccc30eec1c1bd757f56c_XL.jpg"/>
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br> -->
 
 ### Asma Farooq
 
@@ -57,12 +57,12 @@ Office: Office PT-D, GSSI "Mariani Building", Viale Francesco Crispi, 3, 67100 L
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/4bf4cb790c30b494b4e810700fda2c3b_XL.jpg"/>
 
 <br><br><br><br><br><br><br><br>
-
+<!-- 
 ### Piero Deidda
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/19750442099982ecbbaed6577f5defed_L.jpg"/>
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br> -->
 
 <br>
 
@@ -137,9 +137,10 @@ https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg
 
 # Former Members
 Anton Savostianov (PhD student) <br>
-Alessia Andò (postdoc) <br>
+Alessia Andò (PostDoc) <br>
 Konstantin Prokopchik (PhD student) <br>
 Mattia Manucci (PhD student) <br>
 Miryam Gnazzo (PhD student) <br>
 Stefano Sicilia (PhD student) <br>
 Arturo De Marinis (PhD student) <br>
+Piero Deidda (PostDoc) <br>
