@@ -9,10 +9,10 @@ We organize a reading group on *COMPutational LEarning*, specifically on topics 
 
 We meet regularly to read a paper of common interest, together, with the goal of creating some motivation for staying up to date with the new papers or to catch up with some papers that you wanted to read but postponed for some time. Recently, as an alternative, we have decided to let people present their own research work, so that everyone in the group knows what the others are doing, with the aim of fostering exchange of ideas and collaborations.
 
-If you are interested in participating please complete the form below to be to be notified about the meetings:   
+If you are interested in participating please complete the form below to be notified about the meetings:   
 Google Form: [Subscription to Reading Group mailing list](https://forms.gle/8BUovFDTbx9YH6L2A)
 
-If you have suggestions for papers to ready you can propose your ideas here:   
+If you have suggestions for papers to read you can propose your ideas here:   
 Google Form: [Suggestions for papers to read](https://forms.gle/fzrMX4Vyu7WBmbYB6)
 
 If you want inspiration for a possible paper to read, here is a list of the papers that have been suggested so far:  

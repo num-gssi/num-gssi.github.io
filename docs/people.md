@@ -7,14 +7,14 @@
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/16fd96deba85a06311383433f152ed24_XL.jpg"/>
 
-Nicola Gugliemi is full professor in Numerical Analysis and Chair of the Doctoral School in Mathematics at GSSI. He is interested in the general area of scientific computing, particularly numerical analysis of ordinary and delay differential equations, stability analysis of (discretized) dynamical systems - including variable coefficient and switched systems - and ode methods in matrix perturbation theory and control, for high-dimensional problems. More specifically: Stiff and singularly perturbed problems (in particular in the framework of delay differential equations); software development for general classes of implicit delay differential equations; stability analysis of numerical integrators for ordinary and delay differential equations; computation of the joint spectral characteristics of a set of matrices, with application to contractivity analysis of time dependent systems of differential and difference equations; ode-based pseudospectral computations for both unstructured and structured problems; non-smooth analysis of discontinuous differential equations with focus on the computation of weak solutions. <br><br>
+Nicola Guglielmi is full professor in Numerical Analysis and Chair of the Doctoral School in Mathematics at GSSI. He is interested in the general area of scientific computing, particularly numerical analysis of ordinary and delay differential equations, stability analysis of (discretized) dynamical systems - including variable coefficient and switched systems - and ode methods in matrix perturbation theory and control, for high-dimensional problems. More specifically: Stiff and singularly perturbed problems (in particular in the framework of delay differential equations); software development for general classes of implicit delay differential equations; stability analysis of numerical integrators for ordinary and delay differential equations; computation of the joint spectral characteristics of a set of matrices, with application to contractivity analysis of time dependent systems of differential and difference equations; ode-based pseudospectral computations for both unstructured and structured problems; non-smooth analysis of discontinuous differential equations with focus on the computation of weak solutions. <br><br>
 [Personal Web Page](https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola)
 
 
 
 ###  Francesco Tudisco
 
-<img class="people_photo" src="https://ftudisco.gitlab.io/img/fra_gssi_2.jpg"/>
+<img class="people_photo" src="../img/fra_white_bg.jpg" alt="Francesco Tudisco"/>
 
 Francesco Tudisco is an Associate Professor (Reader) in Machine Learning affiliated with the University of Edinburgh, the Maxwell Institute for Mathematical Sciences, and the Gran Sasso Science Institute. His research interests lie at the intersection between machine learning and applied mathematics, particularly numerical analysis and scientific computing. His recent work includes the design and analysis of physics-inspired deep learning models for scientific simulations and climate forecasting, machine learning on graphs, compression and speed-up of deep learning models, trustworthiness and robustness of deep learning models, and theory of deep learning, including the analysis of neural networks in the infinite width and infinite depth limits. <br><br>
 [Personal Web Page.](https://ftudisco.gitlab.io/)  
@@ -44,25 +44,30 @@ Office: Office PT-D, GSSI "Mariani Building", Viale Francesco Crispi, 3, 67100 L
 
 <img class="people_photo" src="https://gssi.it/media/k2/items/cache/bc720404df99ccc30eec1c1bd757f56c_XL.jpg"/>
 
-<br><br><br><br><br><br><br><br> -->
+
+
+-->
 
 ### Asma Farooq
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/3dc8bb54e4c819a8b5a62a9f9cbd2ace_L.jpg"/>
 
-<br><br><br><br><br><br><br><br>
+
 
 ### Francesco Paolo Maiale
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/4bf4cb790c30b494b4e810700fda2c3b_XL.jpg"/>
 
-<br><br><br><br><br><br><br><br>
+
+
 <!-- 
 ### Piero Deidda
 
 <img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/19750442099982ecbbaed6577f5defed_L.jpg"/>
 
-<br><br><br><br><br><br><br><br> -->
+
+
+-->
 
 <br>
 
@@ -88,7 +93,7 @@ From December 2024 he manages the website of the GSSI Numerical Analysis and Dat
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/b9d19495ab6d0de16d03ceb35b095cd8_XL.jpg"/>
 
-<br><br><br><br><br><br><br><br>
+
 
 ### Francesco Fabbri
 <img class="people_photo" src="
@@ -96,7 +101,7 @@ https://www.gssi.it/media/k2/items/cache/a6cf2da04550a16cf8922a50cd63f51a_L.jpg"
 
 Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/professors/lectures-maths/item/7942-viola-francesco).
 
-<br><br><br><br><br><br><br>
+
 
 ### Grigorii (Grisha) Buklei
 
@@ -111,7 +116,7 @@ https://www.gssi.it/media/k2/items/cache/086e05a6efcb9ae6635611c175c3109b_L.jpg"
 
 Joint supervision with [Prof. Raffaele D'Ambrosio](http://people.disim.univaq.it/~raffaele.dambrosio/).
 
-<br><br><br><br><br><br><br>
+
 
 ### Pietro Sittoni
 <img class="people_photo" src="
@@ -127,13 +132,13 @@ https://www.gssi.it/media/k2/items/cache/67bce501cb91ad9502815f64f147e976_XL.jpg
 
 Joint supervision with [Prof. Vladimir Protasov](https://www.disim.univaq.it/VladimirProtassov).
 
-<br><br><br><br><br><br><br>
+
 
 ### Sara Tarquini
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg"/>
 
-<br><br><br><br><br><br><br><br>
+
 
 # Former Members
 Anton Savostianov (PhD student) <br>
