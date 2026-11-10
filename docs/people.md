@@ -40,18 +40,8 @@ My personal webpage is: [https://marcosutti.net/](https://marcosutti.net/)
 
 Office: Office PT-D, GSSI "Mariani Building", Viale Francesco Crispi, 3, 67100 L'Aquila
 
-<!-- ### Angelo Alberto Casulli
-
-<img class="people_photo" src="https://gssi.it/media/k2/items/cache/bc720404df99ccc30eec1c1bd757f56c_XL.jpg"/>
-
-
 
 -->
-
-### Asma Farooq
-
-<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/3dc8bb54e4c819a8b5a62a9f9cbd2ace_L.jpg"/>
-
 
 
 ### Francesco Paolo Maiale
@@ -75,6 +65,28 @@ Office: Office PT-D, GSSI "Mariani Building", Viale Francesco Crispi, 3, 67100 L
 
 # PhD Students
 
+### Damiano Scevola
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/fde8cb93dbcff7951cd7931c70fc2bbe_XL.jpg"/>
+
+I was born on August 12, 1999, in Chieti and grew up in Villa Raspa di Spoltore (Pescara). I attended IIS Alessandro Volta in Pescara, specializing in Computer Science, where I explored robotics and web development. I graduated with honours in 2018 and was awarded the Alfiere del Lavoro distinction by the President of the Italian Republic. <br>
+I earned a bachelor’s degree with honours in Computer Science from the University of Bologna in 2021, with a thesis on qubit usage in quantum circuits, followed by a second bachelor’s degree with honours in Physics in 2023, focusing on the analogy between the Unruh effect and Hawking radiation. In 2025, I completed my master’s degree with honours in Theoretical Physics at the same university, presenting a thesis on dimensionality and boundary conditions in Hadamard regularization within Quantum Field Theory. <br>
+I am currently pursuing a PhD in Applied Mathematics at the Gran Sasso Science Institute (GSSI) in L’Aquila.
+
+### Claudia Yuuko De Iuliis
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/427333cd7cd5744a7051219bde937adc_XL.jpg"/>
+
+I obtained both my Bachelor’s and Master’s degrees at the University of Rome “Sapienza”, in Mathematics and Applied Mathematics respectively. During my Master’s studies, I focused on Probability, Statistics, Partial Differential Equations, Control Theory, Theoretical Physics, and Fluid Dynamics. <br>
+My main interests lie in Probability, for its ability to capture the subtleties of real phenomena and as a tool to glimpse the Quantum world. My Bachelor’s thesis was on the Boltzmann equation, while my Master’s thesis concerned a gradient-flow formulation for a class of Quantum Markov semigroups. <br><br>
+Personal page: [https://it.linkedin.com/in/claudia-yuuko-de-iuliis-7ab7081aa](https://it.linkedin.com/in/claudia-yuuko-de-iuliis-7ab7081aa)
+
+### Francesco Di Cuia
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/c7299c5ed2682b791ebe743364976abb_XL.jpg"/>
+
+I’m interested in numerical methods for solving various kinds of problems. In my master thesis I studied the convergence of the Finite Element Method (FEM) and Virtual Element Method (VEM) on anisotropic meshes.
+
 ### Eugenio Turchet
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/8acce78e97e3f08972d362c6b2552dd2_XL.jpg"/>
@@ -89,20 +101,6 @@ Bernardo Collufio is a PhD student with PNRR fellowship in “Mathematics in Nat
 
 From December 2024 he manages the website of the GSSI Numerical Analysis and Data Science group and co organizes seminars of the cycle COMPiLE Reading Group.
 
-### Emanuele Zangrando
-<img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/b9d19495ab6d0de16d03ceb35b095cd8_XL.jpg"/>
-
-
-
-### Francesco Fabbri
-<img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/a6cf2da04550a16cf8922a50cd63f51a_L.jpg"/>
-
-Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/professors/lectures-maths/item/7942-viola-francesco).
-
-
-
 ### Grigorii (Grisha) Buklei
 
 <img class="people_photo" src="
@@ -110,21 +108,11 @@ https://www.gssi.it/media/k2/items/cache/f5bdcc044634ef05f83fc69829d1ba79_XL.jpg
 
 Grigorii (Grisha) Buklei is a PhD Student in Mathematics in Natural, Social and Life Sciences, GSSI. He was awarded with PNRR-funded scholarship. Previously, Grigorii was a Research Intern at the Complex Systems Modelling and Control Laboratory, Department of Computer Sciences, Higher School of Economics (Moscow, Russia). He holds a BSc in Applied Mathematics and Information Science from the Higher School of Economics. His current research interests are in the scope of mathematical modeling, Bayesian experimental design, and algorithmic game theory.
 
-### Helena Biscevic
-<img class="people_photo" src="
-https://www.gssi.it/media/k2/items/cache/086e05a6efcb9ae6635611c175c3109b_L.jpg"/>
-
-Joint supervision with [Prof. Raffaele D'Ambrosio](http://people.disim.univaq.it/~raffaele.dambrosio/).
-
-
-
 ### Pietro Sittoni
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/3608f708a3c309d512faf18617f98cb8_XL.jpg"/>
 
 Pietro Sittoni is a PhD student in Mathematics in Natural, Social, and Life Sciences. He holds a MSc in Data Science from the University of Padova. During his thesis, he studied the properties of subhomogeneous operators, exploiting them to present a new analysis of the existence and uniqueness of fixed points, using it to design stable deep equilibrium models and applying it to mathematical optimization.
-
-<br><br>
 
 ### Rinat Kamalov
 <img class="people_photo" src="
@@ -132,13 +120,19 @@ https://www.gssi.it/media/k2/items/cache/67bce501cb91ad9502815f64f147e976_XL.jpg
 
 Joint supervision with [Prof. Vladimir Protasov](https://www.disim.univaq.it/VladimirProtassov).
 
-
-
 ### Sara Tarquini
 <img class="people_photo" src="
 https://www.gssi.it/media/k2/items/cache/1a19e068e738e82d64b664fdb8b5aa68_XL.jpg"/>
 
+### Emanuele Zangrando
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/b9d19495ab6d0de16d03ceb35b095cd8_XL.jpg"/>
 
+### Francesco Fabbri
+<img class="people_photo" src="
+https://www.gssi.it/media/k2/items/cache/a6cf2da04550a16cf8922a50cd63f51a_L.jpg"/>
+
+Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/professors/lectures-maths/item/7942-viola-francesco).
 
 # Former Members
 Anton Savostianov (PhD student) <br>
@@ -149,3 +143,5 @@ Miryam Gnazzo (PhD student) <br>
 Stefano Sicilia (PhD student) <br>
 Arturo De Marinis (PhD student) <br>
 Piero Deidda (PostDoc) <br>
+Asma Farooq (PostDoc) <br>
+Helena Biscevic (PhD student) <br>
