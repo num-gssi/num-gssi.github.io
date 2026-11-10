@@ -23,15 +23,13 @@ This is where we share our seminars, reading group meetings and research activit
 
 ## Our research
 
-- **Numerical Analysis & Dynamical Systems** — We design and analyze numerical methods for dynamical systems, including ordinary, delay, and stochastic differential equations, with a focus on stability in high-dimensional systems. Our work extends to matrix theory, with contributions to eigenvalue optimization, matrix perturbation theory, matrix nearness problems, control, and graph theory.
+- **Numerical Analysis & Dynamical Systems** — Numerical methods for differential equations, stability, eigenvalue problems and structured matrices.
+- **Machine Learning & Data Science** — Learning on graphs, reliable neural networks and mathematical foundations of machine learning.
+- **Computational Fluid & Plasma Dynamics** — High-performance methods for hyperbolic PDEs and kinetic models.
+- **Quantum Computing** — Quantum algorithms and hardware for combinatorial optimization.
+- **Optimization & Optimal Transport** — Algorithms for nonlinear least squares and optimal transport.
 
-- **Machine Learning & Data Science** — We are interested in understanding different ways to train deep learning models: using implicit layers by studying their stability and possible effective application and also using low-parametric training for neural networks. These modeling choices are often justified by empirically observed implicit biases of optimization, which is our interest to characterize. Our interest also extends to developing surrogate deep-learning models for complex physical phenomena that are usually impossible to simulate using standard numerical methods.
-
-- **Computational Fluid & Plasma Dynamics** — We study high-performance numerical methods for hyperbolic partial differential equations and kinetic models, with applications in gas dynamics, fluid dynamics, and plasma physics. Our proposed techniques enhance the accuracy, efficiency and physical consistency of simulations used in scientific and industrial applications.
-
-- **Quantum Computing** — We develop quantum algorithms for solving computationally hard combinatorial optimization problems. Our focus is on leveraging Quantum Annealers and Neutral Atom quantum hardware to tackle real-world optimization challenges. By evaluating different quantum processing units (QPUs), we seek alternatives to classical methods for problems where quantum computing can offer significant speedups.
-
-- **Optimization & Optimal Transport** — We address the challenges posed by nonlinear least squares problems by developing novel algorithms that accelerate convergence and reduce computational time. Our work also extends to optimal transport problems with concave cost functions.
+[Read more about our research](research.md).
 
 For news, data and code, please also refer to our [GitHub Repository](https://github.com/compilelab). 
 

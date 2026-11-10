@@ -1,4 +1,28 @@
-# Research & PhD Projects
+# Research
+
+Our group develops mathematical and computational methods across the following areas.
+
+## Numerical Analysis & Dynamical Systems
+
+We design and analyze numerical methods for dynamical systems, including ordinary, delay, and stochastic differential equations, with a focus on stability in high-dimensional systems. Our work extends to matrix theory, with contributions to eigenvalue optimization, matrix perturbation theory, matrix nearness problems, control, and graph theory.
+
+## Machine Learning & Data Science
+
+We are interested in understanding different ways to train deep learning models: using implicit layers by studying their stability and possible effective application and also using low-parametric training for neural networks. These modeling choices are often justified by empirically observed implicit biases of optimization, which is our interest to characterize. Our interest also extends to developing surrogate deep-learning models for complex physical phenomena that are usually impossible to simulate using standard numerical methods.
+
+## Computational Fluid & Plasma Dynamics
+
+We study high-performance numerical methods for hyperbolic partial differential equations and kinetic models, with applications in gas dynamics, fluid dynamics, and plasma physics. Our proposed techniques enhance the accuracy, efficiency and physical consistency of simulations used in scientific and industrial applications.
+
+## Quantum Computing
+
+We develop quantum algorithms for solving computationally hard combinatorial optimization problems. Our focus is on leveraging Quantum Annealers and Neutral Atom quantum hardware to tackle real-world optimization challenges. By evaluating different quantum processing units (QPUs), we seek alternatives to classical methods for problems where quantum computing can offer significant speedups.
+
+## Optimization & Optimal Transport
+
+We address the challenges posed by nonlinear least squares problems by developing novel algorithms that accelerate convergence and reduce computational time. Our work also extends to optimal transport problems with concave cost functions.
+
+## Research and PhD projects
 
 The research interests of the group include:  
 
