@@ -36,6 +36,15 @@ Marco Sutti works on Riemannian optimization, matrix manifolds, low-rank matrix 
 
 [Personal webpage](https://marcosutti.net/) · [GSSI profile](https://www.gssi.it/people/post-doc/post-doc-maths/item/25886-sutti-marco)
 
+### Asma Farooq
+
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/3dc8bb54e4c819a8b5a62a9f9cbd2ace_L.jpg" alt="Asma Farooq"/>
+
+*Postdoctoral researcher*
+
+[GSSI profile](https://www.gssi.it/people/post-doc/post-doc-maths/item/21252-farooq-asma)
+
+<!-- Add a short research biography here when available. -->
 
 ### Francesco Paolo Maiale
 
@@ -93,7 +102,27 @@ Bernardo Collufio studies numerical methods for kinetic PDEs, with applications 
 
 [GSSI profile](https://www.gssi.it/people/students/students-maths/item/24622-collufio-bernardo)
 
+### Emanuele Zangrando
 
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/b9d19495ab6d0de16d03ceb35b095cd8_XL.jpg" alt="Emanuele Zangrando"/>
+
+*PhD student*
+
+[GSSI profile](https://www.gssi.it/people/students/students-maths/item/20024-zangrando-emanuele)
+
+<!-- Add a short research biography here when available. -->
+
+### Francesco Fabbri
+
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/a6cf2da04550a16cf8922a50cd63f51a_L.jpg" alt="Francesco Fabbri"/>
+
+*PhD student*
+
+Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/professors/lectures-maths/item/7942-viola-francesco).
+
+[GSSI profile](https://www.gssi.it/people/students/students-maths/item/20026-fabbri-francesco)
+
+<!-- Add a short research biography here when available. -->
 
 ### Grigorii (Grisha) Buklei
 
@@ -105,6 +134,17 @@ Grigorii (Grisha) Buklei works on mathematical modeling, Bayesian experimental d
 
 [GSSI profile](https://www.gssi.it/people/students/students-maths/item/24620-buklei-grigorii)
 
+### Helena Biscevic
+
+<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/086e05a6efcb9ae6635611c175c3109b_L.jpg" alt="Helena Biscevic"/>
+
+*PhD student*
+
+Joint supervision with [Prof. Raffaele D’Ambrosio](http://people.disim.univaq.it/~raffaele.dambrosio/).
+
+[GSSI profile](https://www.gssi.it/people/students/students-maths/item/15655-biscevic-helena)
+
+<!-- Add a short research biography here when available. -->
 
 ### Pietro Sittoni
 
@@ -138,30 +178,6 @@ Joint supervision with [Prof. Vladimir Protasov](https://www.disim.univaq.it/Vla
 
 <!-- Add a short research biography here when available. -->
 
-### Emanuele Zangrando
-
-<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/b9d19495ab6d0de16d03ceb35b095cd8_XL.jpg" alt="Emanuele Zangrando"/>
-
-*PhD student*
-
-[GSSI profile](https://www.gssi.it/people/students/students-maths/item/20024-zangrando-emanuele)
-
-<!-- Add a short research biography here when available. -->
-
-
-### Francesco Fabbri
-
-<img class="people_photo" src="https://www.gssi.it/media/k2/items/cache/a6cf2da04550a16cf8922a50cd63f51a_L.jpg" alt="Francesco Fabbri"/>
-
-*PhD student*
-
-Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/professors/lectures-maths/item/7942-viola-francesco).
-
-[GSSI profile](https://www.gssi.it/people/students/students-maths/item/20026-fabbri-francesco)
-
-<!-- Add a short research biography here when available. -->
-
-
 ## Former Members
 
 - Anton Savostianov (PhD student)
@@ -172,5 +188,3 @@ Joint supervision with [Prof. Francesco Viola](https://www.gssi.it/people/profes
 - Stefano Sicilia (PhD student)
 - Arturo De Marinis (PhD student)
 - Piero Deidda (PostDoc)
-- Asma Farooq (PostDoc)
-- Helena Biscevic (PhD student)
