@@ -1,60 +1,27 @@
-h1,h2 {
-  font-weight: 400;
-}
+/* Simple academic layout. Content is edited in the original Markdown files. */
+:root{--ink:#263940;--blue:#214e62;--muted:#5d6b72;--orange:#de7d2b;--line:#dfe5e8;scroll-padding-top:92px}
+*{box-sizing:border-box}body{padding-top:92px;font-family:'DM Sans',system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.8;background:white;color:var(--ink)}h1,h2,h3,h4,h5,h6{font-family:inherit;color:var(--blue);line-height:1.3;font-weight:600;letter-spacing:-.025em}h1{font-size:34px;margin:12px 0 22px}h2{font-size:27px;margin:35px 0 20px}h3{font-size:22px;margin:30px 0 18px}h1[id]:before,h2[id]:before,h3[id]:before,h4[id]:before{display:none}p{margin-bottom:18px}a{color:var(--blue)}a:hover,a:focus{color:#bd641f;text-decoration:underline}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #de7d2b;outline-offset:4px}img{max-width:100%;height:auto}::selection{background:#f5dfc4;color:#263940}[role=main]{padding-bottom:35px!important}[role=main]:focus{outline:none}.skip-link{position:fixed;top:-100px;left:15px;z-index:2000;background:white;color:#214e62;padding:10px 18px}.skip-link:focus{top:8px}
+/* Navigation, deliberately restrained. */
+.navbar-default{background:#233e4c;border:0;border-bottom:3px solid #cfdeE4;min-height:66px}.navbar-default .navbar-brand{font-size:22px;letter-spacing:-.04em;color:white;height:66px;padding-top:21px;font-weight:600}.navbar-default .navbar-brand:hover{color:#f4b36e}.navbar-default .navbar-nav>li>a{font-size:13px;color:#edf3f6;padding:22px 14px 20px}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{background:#ffffff10;color:#fff;box-shadow:inset 0 -3px #efa556}.navbar-default .navbar-nav>li>a:hover{color:#f4b36e;background:transparent}.navbar-default .navbar-toggle{margin-top:15px;border-color:#8499a4}.navbar-default .navbar-toggle .icon-bar{background:#fff}.navbar-right{margin-right:0}
+/* The original Gran Sasso photograph is the opening image. */
+.gran-sasso-banner{margin:0 0 22px}.gran-sasso-banner img{display:block;width:100%;height:auto;border-radius:0}.gran-sasso-banner figcaption{font-size:10px;text-align:right;color:var(--muted);margin-top:3px}.homepage h1{font-size:32px;margin-top:12px}.homepage>p{max-width:100%}.homepage #main-content>p{font-size:15px}.homepage #main-content>ul{padding-left:22px}.homepage #main-content>ul li{margin-bottom:16px;font-size:14px;line-height:1.9}.homepage #main-content>ul strong{color:var(--blue)}
+/* Upcoming entries are read from seminar.md and reading_group.md. */
+.upcoming-section{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:30px 0 32px;padding:24px 0 8px}.seminars-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:10px}.seminars-heading h2{margin:0;font-size:28px}.calendar-link{font-size:12px;white-space:nowrap}.seminar-card{position:relative;padding:19px 0 19px 110px;min-height:150px}.seminar-card+.seminar-card{border-top:1px solid var(--line)}.seminar-date{position:absolute;left:0;top:22px;width:84px;font-size:15px;color:var(--blue);line-height:1.6;font-weight:600}.seminar-date time{display:block;max-width:75px}.seminar-card h3{font-size:22px;margin:10px 0 12px;line-height:1.4;font-weight:500;max-width:880px}.seminar-card h3 a{color:var(--blue)}.seminar-card p{font-size:14px;margin:2px 0}.seminar-card .seminar-date{font-size:16px}.seminar-speaker{font-weight:600}.seminar-venue{color:var(--muted);font-size:12px!important;margin-top:12px!important}.seminar-badges{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}.series-label{font-size:10px;font-weight:600;letter-spacing:.1em;color:var(--blue)}.tentative-label{font-size:11px;color:#956226}.seminar-card>a{font-size:12px}.seminar-series{padding-top:12px;font-size:13px!important}.seminar-series span{margin:0 12px;color:#80929b}.upcoming-status{padding:18px 0;color:var(--muted);font-size:14px}
+/* Every page ends in a small mountain landscape. No background under the text. */
+.site-footer{position:relative;margin-top:32px;padding:24px 0 30px;background:#f4f7f9aa;border-top:1px solid #dfe5e8}
+.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-top:18px;padding-right:115px}.footer-inner p{font-size:11px;line-height:1.8;color:#5d6b72;margin:0}.footer-links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:20px;font-size:11px}.gssi-corner-logo{position:fixed;right:20px;bottom:20px;width:88px;padding:0;background:transparent;border:0;border-radius:0;z-index:1010;box-shadow:none;mix-blend-mode:multiply}.gssi-corner-logo img{display:block;width:100%;height:auto}.gssi-corner-logo:hover{opacity:.85}
+/* Original page content, with readable spacing and responsive media. */
+.people_photo{width:145px;height:auto;object-fit:contain;object-position:top;float:left;margin:0 24px 15px 0;background:#f2f5f6;border-radius:2px}.people-entry{display:flow-root;padding:24px 0;border-bottom:1px solid var(--line)}.people-entry h3{margin:0 0 20px}.people-entry p:last-child{margin-bottom:0}.people-entry .portrait-fallback{display:inline-flex;align-items:center;justify-content:center;font-size:28px;letter-spacing:.06em;color:#6c818e}.bs-sidebar{background:#f7f9fa;border:1px solid var(--line);box-shadow:none}.bs-sidenav{background:none}.bs-sidenav a{font-size:12px}.bs-sidebar.affix{top:90px}.md-toc-h1{display:none}.gssi_logo{width:200px;float:right}.background_img{display:block;width:100%;height:auto}.credits{text-align:right;font-size:10px;color:var(--muted)}date{display:block;color:var(--muted);font-style:italic}subtitle{display:block;font-size:24px;color:var(--muted)}iframe{display:block;max-width:100%;border:0}iframe[src*="calendar.google"]{width:100%;height:650px}.table-responsive{border:1px solid var(--line);margin:20px 0}.table>thead>tr>th{font-size:12px;color:var(--muted);border-bottom:1px solid var(--line)}.modal-content{background:white}.modal-content h3{font-size:20px}
+/* Archives keep their Markdown tables; this is only their on-screen layout. */
+.archive-years{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 30px}.archive-years a{font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:2px}.seminar-archive h3[id]{font-size:24px;margin:36px 0 15px;border-bottom:1px solid var(--line);padding-bottom:12px}.seminar-archive .event-table,.seminar-archive .event-table tbody{display:block;width:100%}.seminar-archive .event-table{background:transparent;border:0;margin:0 0 30px}.seminar-archive .event-table thead{display:none}.seminar-archive .event-table tr{display:grid;grid-template-columns:60px 175px minmax(0,1fr) 155px;gap:20px;padding:24px 0;border-bottom:1px solid var(--line)}.seminar-archive .event-table td{display:block;border:0!important;background:transparent!important;padding:0!important;min-width:0;font-size:13px;overflow-wrap:anywhere}.seminar-archive .event-table td img{width:60px!important;height:auto;object-fit:contain;border-radius:2px}.seminar-archive .event-table td:nth-child(3)>strong:first-of-type{font-size:18px;font-weight:500;line-height:1.45;display:block}.seminar-archive .event-table td:last-child{font-size:12px;color:var(--muted);border-left:1px solid var(--line)!important;padding-left:17px!important}.abstract-details{font-size:13px;color:var(--muted);margin-top:10px}.abstract-details summary{color:var(--blue);font-size:12px;cursor:pointer;padding:6px 0;display:list-item}.abstract-body{margin:10px 0;line-height:1.9}.abstract-body>br:first-child{display:none}
+@media(min-width:768px) and (max-width:991px){.navbar-default .navbar-brand{font-size:19px;padding-left:0;padding-right:10px}.navbar-default .navbar-nav>li>a{font-size:11px;padding-left:8px;padding-right:8px}.navbar-right .fa-search{display:none}.seminar-archive .event-table tr{grid-template-columns:45px 120px minmax(0,1fr) 105px;gap:14px}.footer-inner{padding-right:80px}}
+@media(max-width:767px){body{padding-top:84px;font-size:15px}.navbar-default,.navbar-default .navbar-brand{min-height:63px;height:63px}.navbar-default .navbar-brand{font-size:21px;padding-top:19px}.navbar-default .navbar-nav>li>a{padding:12px 18px;font-size:13px}.navbar-default .navbar-nav>.active>a{box-shadow:inset 3px 0 #efa556}.navbar-collapse{max-height:calc(100vh - 63px)!important;background:#233e4c}.gran-sasso-banner{margin-bottom:19px}.homepage h1,h1{font-size:29px}.gran-sasso-banner figcaption{font-size:9px}.homepage #main-content>p{font-size:14px}h2{font-size:25px}.seminars-heading{align-items:flex-start;gap:12px}.seminars-heading h2{font-size:24px}.calendar-link{font-size:11px}.seminar-card{padding:17px 0 20px;min-height:0}.seminar-card .seminar-date{position:static;width:auto;max-width:none;font-size:14px;margin-top:7px}.seminar-date time{max-width:none}.seminar-card h3{font-size:20px;margin-top:10px}.seminar-series{font-size:12px!important}.seminar-series span{margin:0 5px}.seminar-archive .event-table tr{grid-template-columns:48px minmax(0,1fr);gap:12px}.seminar-archive .event-table td:nth-child(3){grid-column:1/-1;margin-top:6px}.seminar-archive .event-table td:last-child{grid-column:1/-1;border-left:0!important;border-top:1px solid var(--line)!important;padding:12px 0 0!important}.seminar-archive .event-table td img{width:48px!important;height:auto}.archive-years{gap:7px}.archive-years a{font-size:11px;padding:4px 8px}.people_photo{width:105px;height:auto;margin-right:16px}.footer-inner{align-items:flex-start;flex-direction:column;gap:14px;padding-right:88px}.footer-links{justify-content:flex-start;gap:12px}.gssi-corner-logo{width:65px;right:12px;bottom:13px;padding:0}.site-footer{padding-bottom:27px}iframe[src*="calendar.google"]{height:560px}}
 
-h3 {margin-top: 5rem;}
+/* On phones, start with the page content rather than a long sidebar index. */
+@media(max-width:767px){.bs-sidebar{display:none}}
 
-.people_photo {
-  width:200px; 
-  border: 1px solid black; 
-  padding: 2px; 
-  float: left; 
-  margin-right: 10px; 
-  margin-top: 10px;
-}
-
-.background_img {
-  position: relative;
-  overflow: visible;
-  display: block;
-  margin: 0 auto;
-  width: 120%;
-  left: -10%;
-  max-width: 5000px;
-  top: -18px;
-}
-.credits {
-  position: relative;
-  text-align: right;
-  margin: 0 auto;
-  font-size: 10px;
-  right: -10%;
-  top: -28px;
-}
-
-.gssi_logo {
-  width:200px; 
-  padding: 2px; 
-  float: right; 
-  margin-top: 0px;
-}
-
-.md-toc-h1 {
-  display: none;
-}
-
-date {
-  color:gray;
-  font-style: italic;
-  display: block;
-}
-
-.title{
-  margin-bottom:-5px;
-}
-subtitle{
-  font-size: 26px;
-  color:gray;
-  margin-bottom: 30px;
-  display: block;
-}
+/* Shared mountain landscape: static ridges, slow cloud movement only. */
+body{isolation:isolate;background:#fff}.mountain-background{position:fixed;inset:66px 0 0;z-index:-1;pointer-events:none;overflow:hidden;opacity:.72}.mountain-background svg{display:block;width:100%;height:100%}.mountain-clouds{animation:mountain-breeze 32s ease-in-out infinite alternate}.landscape-paused .mountain-clouds{animation-play-state:paused}.landscape-toggle{border:0;background:transparent;color:var(--blue);font:inherit;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}.people_photo{max-height:none}.people-entry .portrait-fallback{height:150px}.seminar-archive .event-table td img{height:auto!important;object-fit:contain;object-position:top;max-height:none}.table-responsive img{height:auto;object-fit:contain}
+@keyframes mountain-breeze{from{transform:translate(-8px,0)}to{transform:translate(12px,-3px)}}
+@media(max-width:767px){.mountain-background{inset:63px 0 0;opacity:.55}.mountain-background svg{width:170%;max-width:none;transform:translateX(-20%)}.people-entry .portrait-fallback{height:110px}.footer-inner{padding-right:90px}}
+@media(prefers-reduced-motion:reduce){.mountain-clouds{animation:none}.landscape-toggle{display:none}}

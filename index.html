@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
+    <meta name="description" content="Numerical Analysis and Data Science at the Gran Sasso Science Institute. Research, NOMADS seminars and the COMPiLE Reading Group.">
+    <meta name="author" content="GSSI Numerical Analysis and Data Science Group">
+    <link rel="canonical" href="https://num-gssi.github.io/">
     <link rel="shortcut icon" href="img/favicon.ico">
 
     
@@ -16,21 +16,17 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
-    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="css/base.min.css" rel="stylesheet">
     <link href="css/cinder.min.css" rel="stylesheet">
 
-    
-        
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
-        
+     
+
     
     <link href="css/extra.css" rel="stylesheet">
-    <link href="http://tikzjax.com/v1/fonts.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -44,6 +40,18 @@
 </head>
 
 <body class="homepage" >
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+
+    <div class="mountain-background" aria-hidden="true">
+      <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <g class="mountain-clouds" fill="none" stroke="#ccdae1" stroke-width="2" opacity=".65"><path d="M125 280 H215 M150 293 H195 M1260 175 H1365 M1290 189 H1345"/><path d="M1120 350 H1210 M1142 364 H1186"/></g>
+        <circle cx="1210" cy="395" r="26" fill="#f6e7d7"/>
+        <path d="M0 640 100 590 165 615 230 530 285 564 345 440 390 493 438 390 475 457 505 425 550 516 620 550 690 515 760 610 820 570 885 605 960 500 1010 445 1050 475 1095 355 1130 405 1170 382 1200 450 1250 500 1320 600 1380 557 1430 610 1500 570 1600 650 V1000 H0 Z" fill="#eef3f6" stroke="#c4d3dc" stroke-width="1.6"/>
+        <path d="M345 440 370 525 390 493 M438 390 446 510 475 457 M505 425 498 512 550 516 M1095 355 1102 502 1130 405 M1170 382 1159 510 1200 450" fill="none" stroke="#d0dde4" stroke-width="1.4"/>
+        <path d="M0 840 130 770 220 799 315 710 390 757 480 705 590 813 680 755 770 825 865 721 950 755 1040 680 1115 742 1210 708 1300 780 1410 735 1510 805 1600 760 V1000 H0 Z" fill="#e6eef2" opacity=".55"/>
+      </svg>
+    </div>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -51,7 +59,7 @@
         <!-- Collapsed navigation -->
         <div class="navbar-header">
             <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button" class="navbar-toggle" aria-label="Toggle navigation" aria-expanded="false" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -89,13 +97,7 @@
                 
                 
                     <li >
-                        <a href="reading_group/">COMPiLE Seminars</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="posts/">Posts</a>
+                        <a href="reading_group/">COMPiLE Reading Group</a>
                     </li>
                 
                 
@@ -119,16 +121,6 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="people/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
             </ul>
         </div>
     </div>
@@ -137,78 +129,64 @@
     <div class="container">
         
         
-        <div class="col-md-12" role="main">
+        <div class="col-md-12" role="main" id="main-content" tabindex="-1">
 
-<p><img src="img/gssi-view.png" class="background_img"></p>
-<div class="credits">
-    Photo by Alee Kadhim Obeid
-</div>
-
-<!-- <img class="gssi_logo" src="img/logo-quadrato-no-testo-bicolor.jpg"/> -->
-
-<!-- <h1 class="title"> Numerical Analysis  and Data Science Group </h1> 
-<subtitle> Gran Sasso Science Institute </subtitle> -->
+<figure class="gran-sasso-banner">
+<img src="img/gran-sasso-banner.webp" alt="GSSI Numerical Analysis and Data Science Group — panorama of the Gran Sasso mountains" width="1920" height="351" fetchpriority="high">
+<figcaption>Photo by Alee Kadhim Obeid</figcaption>
+</figure>
 
 <h1 id="welcome">Welcome</h1>
-<p>to the GSSI Numerical Analysis and Data Science Group website! We work on mathematical and computational methods to solve complex problems in physics, data science, machine learning and other real-world applications, combining numerical analysis, machine learning, optimization, quantum computing and applied mathematics.</p>
-<h2 id="our-research-areas">Our Research Areas</h2>
+<p>We are the Numerical Analysis and Data Science Group at the <strong>Gran Sasso Science Institute</strong>, L’Aquila. We work on mathematical and computational methods for scientific computing, dynamical systems, optimization and machine learning.</p>
+<p>This is where we share our seminars, reading group meetings and research activities.</p>
+<section class="upcoming-section" aria-labelledby="upcoming-heading">
+<div class="seminars-heading"><div><h2 id="upcoming-heading">Upcoming seminars</h2></div><a class="calendar-link" href="calendar/">View calendar ↗</a></div>
+<div class="seminar-grid" id="upcoming-list" aria-live="polite"><p class="upcoming-status">See upcoming dates in the <a href="seminar/">NOMADS seminars</a> and <a href="reading_group/">COMPiLE reading group</a> pages.</p></div>
+<p class="seminar-series"><a href="seminar/">NOMADS seminars</a><span aria-hidden="true"> · </span><a href="reading_group/">COMPiLE reading group</a></p>
+</section>
+
+<h2 id="our-research">Our research</h2>
 <ul>
-<li><strong>Numerical Analysis &amp; Dynamical Systems</strong> <br> We design and analyze numerical methods for dynamical systems, including ordinary, delay, and stochastic differential equations, with a focus on stability in high-dimensional systems. Our work extends to matrix theory, with contributions to eigenvalue optimization, matrix perturbation theory, matrix nearness problems, control, and graph theory.</li>
-<li><strong>Machine Learning &amp; Data Science</strong> <br> We are interested in understanding different ways to train deep learning models: using implicit layers by studying their stability and possible effective application and also using low-parametric training for neural networks. These modelistic choices are often justified by empirically observed implicit biases of optimization, which is our interest to characterize. Our interest also extends to developing surrogate deep-learning models for complex physical phenomena that are usually impossible to simulate using standard numerical methods.</li>
-<li><strong>Computational Fluid &amp; Plasma Dynamics</strong> <br> We study high-performance numerical methods for hyperbolic partial differential equations and kinetic models, with applications in gas dynamics, fluid dynamics, and plasma physics. Our purposed technique enhance the accuracy, efficiency and physical consistency of simulations used in scientific and industrial applications.</li>
-<li><strong>Quantum Computing</strong> <br> We develop quantum algorithms for solving computationally hard combinatorial optimization problems. Our focus is on leveraging Quantum Annealers and Neutral Atom quantum hardware to tackle real-world optimization challenges. By evaluating different quantum processing units (QPUs), we seek alternatives to classical methods for problems where quantum computing can offer significant speedups.</li>
-<li><strong>Optimization &amp; Optimal Transport</strong> <br> We address the challenges posed by nonlinear least squares problems by developing novel algorithms that accelerate convergence and reduce computational time. Our work also extends to optimal transport problems with concave cost functions.</li>
+<li>
+<p><strong>Numerical Analysis &amp; Dynamical Systems</strong> — We design and analyze numerical methods for dynamical systems, including ordinary, delay, and stochastic differential equations, with a focus on stability in high-dimensional systems. Our work extends to matrix theory, with contributions to eigenvalue optimization, matrix perturbation theory, matrix nearness problems, control, and graph theory.</p>
+</li>
+<li>
+<p><strong>Machine Learning &amp; Data Science</strong> — We are interested in understanding different ways to train deep learning models: using implicit layers by studying their stability and possible effective application and also using low-parametric training for neural networks. These modeling choices are often justified by empirically observed implicit biases of optimization, which is our interest to characterize. Our interest also extends to developing surrogate deep-learning models for complex physical phenomena that are usually impossible to simulate using standard numerical methods.</p>
+</li>
+<li>
+<p><strong>Computational Fluid &amp; Plasma Dynamics</strong> — We study high-performance numerical methods for hyperbolic partial differential equations and kinetic models, with applications in gas dynamics, fluid dynamics, and plasma physics. Our proposed techniques enhance the accuracy, efficiency and physical consistency of simulations used in scientific and industrial applications.</p>
+</li>
+<li>
+<p><strong>Quantum Computing</strong> — We develop quantum algorithms for solving computationally hard combinatorial optimization problems. Our focus is on leveraging Quantum Annealers and Neutral Atom quantum hardware to tackle real-world optimization challenges. By evaluating different quantum processing units (QPUs), we seek alternatives to classical methods for problems where quantum computing can offer significant speedups.</p>
+</li>
+<li>
+<p><strong>Optimization &amp; Optimal Transport</strong> — We address the challenges posed by nonlinear least squares problems by developing novel algorithms that accelerate convergence and reduce computational time. Our work also extends to optimal transport problems with concave cost functions.</p>
+</li>
 </ul>
 <p>For news, data and code, please also refer to our <a href="https://github.com/compilelab">GitHub Repository</a>. </p>
-<h3 id="about-gssi">About GSSI</h3>
-<p>The <a href="https://www.gssi.it">Gran Sasso Science Institute (GSSI)</a> is an international PhD school and a center for research and higher education in the areas of Physics, Mathematics, Computer Science and Social Sciences. Professors, researchers and students from all scientific backgrounds are selected internationally, following the standards set by the best research centers and PhD schools worldwide.</p>
-<!-- <br> -->
-
-<!-- 
-
-# News 
-- <date> August 5, 2020 </date> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- <date> July 5, 2020 </date> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- <date> June 5, 2020 </date> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- <date> May 5, 2020 </date> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- <date> April 5, 2020 </date> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- <date> March 5, 2020 </date> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. --></div>
+<h2 id="about-gssi">About GSSI</h2>
+<p>The <a href="https://www.gssi.it">Gran Sasso Science Institute (GSSI)</a> is an international PhD school and a center for research and higher education in the areas of Physics, Mathematics, Computer Science and Social Sciences. Professors, researchers and students from all scientific backgrounds are selected internationally, following the standards set by the best research centers and PhD schools worldwide.</p></div>
         
         
     </div>
 
-    <footer class="col-md-12 text-center">
-        <!-- 
-        <hr>
-        <p>
-        <small>Made with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
-        </p>
-
-        
-         -->
+    <footer class="site-footer" id="site-footer">
+      <div class="container footer-inner"><p>Numerical Analysis &amp; Data Science · Gran Sasso Science Institute<br>L’Aquila, Italy</p><div class="footer-links"><a href="venues/">Find us</a><a href="post0/">Numerical diffusion · a note</a><a href="https://github.com/compilelab">GitHub ↗</a><button class="landscape-toggle" type="button" aria-pressed="false">Pause background</button></div></div>
     </footer>
+    <a class="gssi-corner-logo" href="https://www.gssi.it" aria-label="Gran Sasso Science Institute — official website"><img src="img/logo-quadrato-no-testo-bicolor.jpg" alt="Gran Sasso Science Institute" width="88" height="88"></a>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap-3.0.3.min.js"></script>
 
+      <!-- default is to include highlightjs -->
     
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
-        
-    <script>hljs.initHighlightingOnLoad();</script>
     
 
     <script>var base_url = "."</script>
     
     <script src="js/base.js"></script>
+    <script src="javascripts/site.js"></script>
     <script src="javascripts/mathjax.js"></script>
-    <script src="assets/mathjaxhelper.js"></script>
-    <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
-    <script src="assets/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
     <script src="search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
@@ -283,5 +261,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2026-10-22 11:29:45.372939+00:00
+Build Date UTC : 2026-11-10 13:24:00.919642+00:00
 -->
