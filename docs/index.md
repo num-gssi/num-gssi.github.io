@@ -15,8 +15,8 @@ This is where we share our seminars, reading group meetings and research activit
 
 <section class="upcoming-section" aria-labelledby="upcoming-heading">
 <div class="seminars-heading"><div><h2 id="upcoming-heading">Upcoming seminars</h2></div><a class="calendar-link" href="calendar/">View calendar ↗</a></div>
-<div class="seminar-grid" id="upcoming-list" aria-live="polite"><p class="upcoming-status">See upcoming dates in the <a href="seminar/">NOMADS seminars</a> and <a href="reading_group/">COMPiLE reading group</a> pages.</p></div>
-<p class="seminar-series"><a href="seminar/">NOMADS seminars</a><span aria-hidden="true"> · </span><a href="reading_group/">COMPiLE reading group</a></p>
+<div class="seminar-grid" id="upcoming-list" aria-live="polite"><p class="upcoming-status">See upcoming dates in the <a href="seminar/">NOMADS seminars</a> and <a href="reading_group/">COMPiLE Reading Group</a> pages.</p></div>
+<p class="seminar-series"><a href="seminar/">NOMADS seminars</a><span aria-hidden="true"> · </span><a href="reading_group/">COMPiLE Reading Group</a></p>
 </section>
 
 
