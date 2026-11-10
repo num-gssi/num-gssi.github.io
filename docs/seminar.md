@@ -12,12 +12,6 @@ The seminars focus on various topics in numerical analysis, numerical linear alg
 Questions or comments about the seminars should be sent to [Nicola Guglielmi](https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola) or [Francesco Tudisco](https://ftudisco.gitlab.io). 
  <br>
 
-### Academic Year 2026/27
-
-|Presenter||Title, Abstract & Other Info|Date|
-|-|-|-|-|
-| | Tommaso Vanzan <br> Politecnico di Torino | <span id="tommaso-vanzan-2026"></span> **Dynamical low-rank approximations for the optimal control of matrix ODEs** | November 16, 2026 <br> Time and venue to be announced |
-
 ### Academic Year 2025/26
 
 |Presenter||Title, Abstract & Other Info|Date|
