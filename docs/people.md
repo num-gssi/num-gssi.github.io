@@ -40,7 +40,7 @@ Marco Sutti works on Riemannian optimization, matrix manifolds, low-rank matrix 
 
 <img class="people_photo" src="../img/damiano-scevola.jpg" alt="Damiano Scevola"/>
 
-Damiano Scevola is a PhD student in Applied Mathematics at GSSI. He obtained Bachelor’s degrees with honours in Computer Science and Physics and a Master’s degree with honours in Theoretical Physics from the University of Bologna. His theses explored qubit usage in quantum circuits, the connection between the Unruh effect and Hawking radiation, and Hadamard regularization in Quantum Field Theory.
+Damiano Scevola is a math PhD student at GSSI and he has a background in computer science and theoretical physics. His research interests are numerical methods for semiclassical gravity, which involve Sturm-Liouville problems, generalized eigenfunctions, pragmatic mode sums, subtraction schemes for renormalization and convergence analysis of the resulting numerical schemes.
 
 ### Claudia Yuuko De Iuliis
 
