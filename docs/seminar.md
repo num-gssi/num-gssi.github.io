@@ -12,6 +12,12 @@ The seminars focus on various topics in numerical analysis, numerical linear alg
 Questions or comments about the seminars should be sent to [Nicola Guglielmi](https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola) or [Francesco Tudisco](https://ftudisco.gitlab.io). 
  <br>
 
+### Academic Year 2026/27
+
+|Presenter||Title, Abstract & Other Info|Date|
+|-|-|-|-|
+<img style="width:60px;" src="https://sscardapane.it/assets/images/me.jpg">|[Simone Scardapane](https://www.sscardapane.it) <br> University of Rome Sapienza, Italy| **Designing Efficient Neural Networks via Conditional Computation** <br><br> Neural networks increasingly operate under variable computational budgets, yet many architectures still use the same computation for every input. Conditional computation makes this allocation adaptive: a model can select which tokens to process, which modules to activate, or how much depth to use for each input. In this seminar, we will introduce the main design and training principles behind these models and discuss recent developments in efficient inference. I will draw on examples from our research, including granular adaptive computation modules and low-rank compression with input-dependent rank selection. I will also discuss the practical limits of these approaches, particularly routing overhead and hardware execution. The aim is to understand when adaptive computation offers a useful trade-off between accuracy and computational cost. | November 30, 2026 <br><br> 11:30 AM <br><br> [Auditorium, Polaris building (Rectorate)](https://num-gssi.github.io/venues/)|
+
 ### Academic Year 2025/26
 
 |Presenter||Title, Abstract & Other Info|Date|
